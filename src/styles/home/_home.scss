@@ -1,0 +1,18 @@
+.home {
+    margin: 0; 
+    padding: 0;
+    height: 100vh; 
+    background-image: url('../assets/background.png');
+    background-color: $background;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    &__title {
+        cursor: default;
+        user-select: none;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+}

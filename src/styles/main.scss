@@ -1,0 +1,37 @@
+@import './colorsAndFonts';
+@import './home/home';
+@import './components/header';
+@import './about/about';
+@import './components/intro';
+@import './components/contact';
+@import './components/title';
+@import './components/list';
+
+html,body {
+	margin:0;
+	padding:0;
+    overflow: hidden;
+    font-family: 'mainText';
+	font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+button, h2 {
+	margin:0;
+	padding:0;
+	font-family: 'mainMenu';
+	font-size: 24px;
+    background: none;
+    border: none;
+    color: $darkBrown;
+}
+
+h1 {
+    margin:0;
+	padding:0;
+    overflow: hidden;
+    font-family: 'mainTitle';
+	font-size: 64px;
+    color: $lightBrown;
+    font-weight: normal;
+}

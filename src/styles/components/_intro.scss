@@ -1,0 +1,38 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    &__1 {
+        width: 450px;
+        line-height: 1.8;
+        margin-left: 5%;
+    }
+    &__2 {
+        width: 450px;
+        line-height: 1.8;
+        margin-left: 5%;
+    }
+    &__arrow1 {
+        width: 95px;
+        margin-left: auto;
+        margin-top: -5%;
+        margin-right: 5%;
+    }
+    &__3 {
+        width: 450px;
+        line-height: 1.8;
+        margin-left: auto;
+    }
+    &__arrow2 {
+        width: 80px;
+        margin-left: 7%;
+        margin-top: -7%;
+    }
+    &__4 {
+        width: 450px;
+        line-height: 1.8;
+    }
+    &__highlight {
+        background-color: $highlight;
+    }
+}

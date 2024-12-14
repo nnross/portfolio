@@ -1,0 +1,40 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    &__personal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__location {
+            &__1 {
+                color: $lightBrown;
+            }
+        }
+        &__age {
+            &__1 {
+                color: $lightBrown;
+            }
+        }
+
+    }
+    &__links {
+        &__mail {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 9px;
+
+        }
+        &__github {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            &__address {
+                margin-top: auto;
+                margin-bottom: auto;
+                color: $textBrown;
+            }
+        }
+    }
+}

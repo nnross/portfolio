@@ -1,0 +1,24 @@
+$background: #F3F3F0;
+$darkBrown: #464638;
+$lightBrown: #6D614E;
+$highlight: rgba(109, 97, 78, 0.3);
+$textBrown: #3D362B;
+
+@font-face {
+    color: $lightBrown;
+    font-family: 'mainTitle';
+    src: url('../assets/FrederickatheGreat-Regular.ttf');
+}
+
+@font-face {
+    color: $darkBrown;
+    font-family: 'mainMenu';
+    font-weight: lighter;
+    src: url('../assets/Italiana-Regular.ttf');
+}
+
+@font-face {
+    color: $textBrown;
+    font-family: 'mainText';
+    src: url('../assets/PTMono-Regular.ttf');
+}
