@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
     width: 330px;
+    &__image {
+        &__1{
+            max-width: 400px; 
+        }
+    }
     &__personal {
         display: flex;
         flex-direction: row;

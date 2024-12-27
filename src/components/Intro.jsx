@@ -3,6 +3,7 @@ import propTypes from 'prop-types';
 const Intro = ({ className = 'intro', id = 'intro' }) => {
     return (
       <div className={`${className}`} id={`${id}`}>
+        <h1 className={`${className}__title`} id={`${id}__title`}>nelli rossi</h1>
         <p className={`${className}__1`} id={`${id}__1`}>I’m a <span className={`${className}__highlight`}>master&apos;s student</span> at the University of Turku and I’m majoring in computer science, specifically in <span className={`${className}__highlight`}>interaction design</span>.</p>
         <p className={`${className}__2`} id={`${id}__2`}>For a long time I was unsure what I’d want to do in the future. I’ve always been creative and creating, I even attended an art program in high school. But on the other hand I really liked math and problem solving. I was also really interested in psychology, not to mention that I’m also a very empathic person.</p>
         <img className={`${className}__arrow1`} id={`${id}__arrow1`} src="../src/assets/small_arrow_1.svg" alt="" />

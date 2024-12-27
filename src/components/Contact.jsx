@@ -3,6 +3,9 @@ import propTypes from 'prop-types';
 const Contact = ({ className = 'contact', id = 'contact' }) => {
     return (
       <div className={`${className}`} id={`${id}`}>
+        <div className={`${className}__image`} id={`${id}__image`}>
+          <img className={`${className}__image__1`} id={`${id}__image__1`} src="../src/assets/portrait.svg" alt="" />
+        </div>
         <div className={`${className}__personal`} id={`${id}__personal`}>
           <div className={`${className}__personal__location`} id={`${id}__personal__location`}>
             <p className={`${className}__personal__location__1`} id={`${id}__personal__location__1`}>location</p>
