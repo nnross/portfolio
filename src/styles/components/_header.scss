@@ -19,5 +19,14 @@
         width: 40%;
         align-items: center;
         z-index: 1;
+        &__button{
+            cursor: pointer;
+            text-decoration: none;
+            height: 40px;
+            width: 80px;
+            &.active {
+                text-decoration: underline wavy $lightBrown 2px;
+            }
+        }
     }
 }

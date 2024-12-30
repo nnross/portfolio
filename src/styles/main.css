@@ -59,6 +59,16 @@
   align-items: center;
   z-index: 1;
 }
+.header__menu__button {
+  cursor: pointer;
+  text-decoration: none;
+  height: 40px;
+  width: 80px;
+}
+.header__menu__button.active {
+  -webkit-text-decoration: underline wavy #6D614E 2px;
+          text-decoration: underline wavy #6D614E 2px;
+}
 
 .about {
   margin: 0;
