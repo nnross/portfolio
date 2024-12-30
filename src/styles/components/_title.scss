@@ -1,7 +1,7 @@
 .skills {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 80px 40px 80px 80px ;
+  grid-template-rows: 80px 40px 80px 40px 50px ;
   justify-content: center;
   &__arrow_1_part1 {
     grid-column: 2 / 3;
@@ -13,8 +13,7 @@
   }
   &__title {
     grid-column: 2 / 4;
-    grid-row: 4;
-    place-content: end;
+    grid-row: 5;
   }
   &__question {
     grid-column: 1 / 3;
@@ -48,10 +47,10 @@
   }
 }
 
-.hobbies {
+.hobby {
   display: grid;
   grid-template-columns: 200px 200px;
-  grid-template-rows: 80px 80px 80px 80px ;
+  grid-template-rows: 80px 80px 80px 40px 50px ;
   justify-content: center;
   &__arrow_3_part1 {
     grid-column: 2;
@@ -63,7 +62,7 @@
   }
   &__title {
     grid-column: 1 / 3;
-    grid-row: 4;
+    grid-row: 5;
     place-self: center;
   }
   &__question {
@@ -85,9 +84,8 @@
   &__question {
     grid-column: 2 / 4;
     grid-row: 3;
+    place-self: center;
   }
 }
 
-.title {
-  }
   

@@ -1,0 +1,60 @@
+.hobbies {
+    display: grid;
+    grid-template-columns: calc(calc(100vw * 0.8)* 0.35) calc(calc(100vw * 0.8)* 0.1) calc(calc(100vw * 0.8)* 0.25) calc(calc(100vw * 0.8)* 0.30);
+    grid-template-rows: 60px 160px 120px 220px 50px 90px 90px 90px 230px;
+    justify-content: center;
+    margin-top: 50px;
+    &__painting {
+        grid-column: 1;
+        grid-row: 1 / 4 ;
+        max-width: 100%;
+        object-fit: contain;
+        justify-self: stretch;
+        align-self: stretch;
+        &__text {
+            grid-column: 2 / 4;
+            grid-row: 2;
+        }
+    }
+    &__running {
+        grid-column: 2 / 4;
+        grid-row: 3 / 5;
+        max-width: 100%;
+        object-fit: contain;
+        justify-self: stretch;
+        align-self: stretch;
+        margin-right: 30px;
+        &__text {
+            grid-column: 4;
+            grid-row: 3;
+            place-self: end;
+        }
+    }
+    &__reading {
+        grid-column: 1;
+        grid-row: 5 / 9;
+        max-width: 100%;
+        object-fit: contain;
+        justify-self: stretch;
+        align-self: stretch;
+        &__text {
+            grid-column: 2 / 4;
+            grid-row: 6;
+            place-self: center;
+        }
+    }
+    &__knitting {
+        grid-column: 2 / 4;
+        grid-row: 7 / 10;
+        max-width: 100%;
+        object-fit: contain;
+        justify-self: stretch;
+        align-self: stretch;
+        margin-right: 30px;
+        &__text {
+            grid-column: 4;
+            grid-row: 8;
+            place-self: center;
+        }
+    }
+}
