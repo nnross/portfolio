@@ -67,44 +67,18 @@
   overflow-y: scroll;
   width: 100%;
   max-width: 100vw;
-  display: grid;
-  grid-template-columns: auto 500px 500px auto;
-  grid-template-rows: auto 10px 120px 300px 570px auto auto;
+  display: flex;
+  flex-direction: column;
 }
-.about__image {
-  grid-column: 2;
-  grid-row: 3/4;
-  width: 100%;
-  max-width: 400px;
-  margin: 10px auto;
-}
-.about__title {
-  grid-column: 3;
-  grid-row: 3;
-  width: 100%;
-  margin: 0;
-}
-.about .header {
-  grid-column: 1/-1;
-  grid-row: 1;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.about .contact {
-  grid-column: 2;
-  grid-row: 5;
-  margin-top: 40px;
-  align-self: center;
-  justify-self: center;
-}
-.about .intro {
-  grid-column: 3;
-  grid-row: 4/5;
-  margin: 20px;
+.about__intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .about__lists {
-  grid-column: 2/span 2;
-  grid-row: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .intro {
@@ -115,6 +89,8 @@
 .intro__title {
   grid-column: 1/4;
   grid-row: 1;
+  margin-left: 50px;
+  place-content: center;
 }
 .intro__1 {
   grid-column: 2/4;
@@ -147,10 +123,10 @@
 .contact {
   display: flex;
   flex-direction: column;
-  width: 330px;
+  max-width: 330px;
 }
 .contact__image__1 {
-  max-width: 400px;
+  max-width: 330px;
 }
 .contact__personal {
   display: flex;

@@ -1,10 +1,10 @@
 .contact {
     display: flex;
     flex-direction: column;
-    width: 330px;
+    max-width: 330px;
     &__image {
         &__1{
-            max-width: 400px; 
+            max-width: 330px; 
         }
     }
     &__personal {

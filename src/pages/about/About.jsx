@@ -8,8 +8,10 @@ import Hobbies from '../../components/Hobbies';
 
 const About = ({ className = 'about', id = 'about' }) => (
   <div className={className} id={id}>
-    <Contact />
-    <Intro />
+    <div className={`${className}__intro`} id={`${id}__intro`}>
+      <Contact />
+      <Intro />
+    </div>
     <div className={`${className}__lists`} id={`${id}__lists`}>
       <Title className={'skills'} arrow1={'arrow_1_part1'} arrow2={'arrow_1_part2'} question={'Well, what do I know so far?'} title={'skills and tools'} />
       <List title={'UI/UX design'} items={['interaction design', 'visual design', 'responsive design', 'accessibility', 'user research', 'figma', 'notion', 'procreate', 'illustration']} />
