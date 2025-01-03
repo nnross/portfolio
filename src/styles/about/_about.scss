@@ -9,11 +9,13 @@
     flex-direction: column;
 
     &__intro {
+      margin-top: 50px;
       display: flex;
       flex-direction: row;
       justify-content: center;
     }
     &__lists {
+      margin-bottom: 50px;
       display: flex;
       flex-direction: column;
       justify-content: center;

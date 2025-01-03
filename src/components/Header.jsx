@@ -7,7 +7,7 @@ const Header = ({ className = 'header', id = 'header' }) => {
     const isActive = (path) => location.pathname === path;
 
     return (
-        <div className={className} id={id}>
+        <header className={className} id={id}>
             <img className={`${className}__background`} id={`${id}__background`} src="../src/assets/header.svg" alt="" />
             <div className={`${className}__menu`} id={`${id}__menu`}>
                 <Link className={`${className}__menu__about`} id={`${id}__menu__about`} to="/about">
@@ -38,7 +38,7 @@ const Header = ({ className = 'header', id = 'header' }) => {
                     </button>
                 </Link>
             </div>
-        </div>
+        </header>
     );
 };
 

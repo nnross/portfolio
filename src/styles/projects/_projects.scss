@@ -1,0 +1,17 @@
+.projects {
+    display: flex;
+    height: 100vh; 
+    width: 100%;
+    max-width: 100vw;
+    overflow-y: scroll;
+    &__menu {
+        position: absolute;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: 0;
+        right: 0;
+    }
+}

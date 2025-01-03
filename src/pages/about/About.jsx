@@ -1,5 +1,4 @@
 import propTypes from 'prop-types';
-
 import Intro from '../../components/Intro';
 import Contact from '../../components/Contact';
 import Title from '../../components/Title';
