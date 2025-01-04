@@ -1,11 +1,17 @@
 .menu {
+    position: fixed;
+    top: 35%;
+    left: 5%;
     &__list {
-        list-style: none;
+        display: flex;
+        flex-direction: column;
         &__item {
             text-decoration: none;
             color: $darkBrown;
-            
+            margin: 10px;
+            &.active {
+                text-decoration: underline wavy $lightBrown 2px;
+            }
         }
     }
 }
-//url('../assets/marker.png')

@@ -1,16 +1,19 @@
 import propTypes from 'prop-types';
+import { useLocation } from 'react-router-dom';
 
 const Menu = ({ className = 'menu', id = 'menu' }) => {
+    const location = useLocation();
+
+    const isActive = (path) => location.hash === path;
+
     return (
       <div className={`${className}`} id={`${id}`}>
-        <nav>
-            <ul className={`${className}__list`} id={`${id}__list`}>
-            <li><a className={`${className}__list__item`} href="#athena">athena</a></li>
-            <li><a className={`${className}__list__item`} href="#yuki">cafe yuki</a></li>
-            <li><a className={`${className}__list__item`} href="#grcries">grcries</a></li>
-            <li><a className={`${className}__list__item`} href="#recipe">recipebuddies</a></li>
-            <li><a className={`${className}__list__item`} href="#illustration">illustrations</a></li>
-            </ul>
+        <nav className={`${className}__list`} id={`${id}__list`}>
+            <a className={`${className}__list__item ${isActive('#athena') ? 'active' : ''}`} href="#athena">athena</a>
+            <a className={`${className}__list__item ${isActive('#yuki') ? 'active' : ''}`} href="#yuki">cafe yuki</a>
+            <a className={`${className}__list__item ${isActive('#grcries') ? 'active' : ''}`} href="#grcries">grcries</a>
+            <a className={`${className}__list__item ${isActive('#recipe') ? 'active' : ''}`} href="#recipe">recipebuddies</a>
+            <a className={`${className}__list__item ${isActive('#illustration') ? 'active' : ''}`} href="#illustration">illustrations</a>
         </nav>
       </div>
     );

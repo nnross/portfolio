@@ -1,5 +1,10 @@
 import propTypes from 'prop-types';
 import Menu from '../../components/Menu';
+import Athena from './Athena';
+import Yuki from './Yuki';
+import Grcries from './Grcries';
+import Recipe from './Recipe';
+import Illustration from './Illustration';
 
 const Projects = ({ className = 'projects', id = 'projects' }) => (
   <div className={className} id={id}>
@@ -7,21 +12,11 @@ const Projects = ({ className = 'projects', id = 'projects' }) => (
       <Menu />
     </div>
     <div className={`${className}__list`} id={`${className}__list`}>
-      <section id="athena">
-      <h1>athena</h1>
-      </section>
-      <section id="yuki">
-          <h1>cafe yuki</h1>
-      </section>
-      <section id="grcries">
-          <h1>grcries</h1>
-      </section>
-      <section id="recipe">
-          <h1>recipebuddy</h1>
-      </section>
-      <section id="illustration">
-          <h1>illustrations</h1>
-      </section>
+      <Athena />
+      <Yuki />
+      <Grcries />
+      <Recipe />
+      <Illustration />
     </div>
   </div>
 );

@@ -39,6 +39,7 @@
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 .header__background {
   display: block;
@@ -363,12 +364,23 @@
   place-self: center;
 }
 
+.menu {
+  position: fixed;
+  top: 35%;
+  left: 5%;
+}
 .menu__list {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 .menu__list__item {
   text-decoration: none;
   color: #464638;
+  margin: 10px;
+}
+.menu__list__item.active {
+  -webkit-text-decoration: underline wavy #6D614E 2px;
+          text-decoration: underline wavy #6D614E 2px;
 }
 
 .projects {
@@ -377,9 +389,6 @@
   width: 100%;
   max-width: 100vw;
   overflow-y: scroll;
-}
-.projects__menu {
-  position: absolute;
 }
 .projects__list {
   display: flex;
@@ -392,7 +401,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-family: "mainText";
   font-size: 20px;
   scroll-behavior: smooth;
