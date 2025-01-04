@@ -9,7 +9,7 @@ import Illustration from './Illustration';
 const Projects = ({ className = 'projects', id = 'projects' }) => (
   <div className={className} id={id}>
     <div className={`${className}__menu`} id={`${className}__menu`}>
-      <Menu />
+      <Menu type='projects'/>
     </div>
     <div className={`${className}__list`} id={`${className}__list`}>
       <Athena />

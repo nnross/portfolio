@@ -19,7 +19,7 @@ const Contact = ({ className = 'contact', id = 'contact' }) => {
         <div className={`${className}__links`} id={`${id}__links`}>
           <div className={`${className}__links__mail`} id={`${id}__links__mail`}>
             <img className={`${className}__links__mail__icon`} id={`${id}__links__mail__icon`} src="../src/assets/mail.svg" alt="envelope icon"/>
-            <p className={`${className}__links__mail__address`} id={`${id}__links__mail__address`}>nellinatalie.rossi@gmail.com</p>
+            <a className={`${className}__links__mail__address`} id={`${id}__links__mail__address`} href="mailto:nellinatalie.rossi@gmail.com">nellinatalie.rossi@gmail.com</a>
           </div>
           <div className={`${className}__links__github`} id={`${id}__links__github`}>
             <img className={`${className}__links__github__icon`} id={`${id}__links__github__icon`} src="../src/assets/github_1.svg" alt="github icon"/>

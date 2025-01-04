@@ -158,6 +158,11 @@
   justify-content: space-between;
   padding-left: 9px;
 }
+.contact__links__mail__address {
+  color: #3D362B;
+  -webkit-text-decoration: underline dotted #6D614E;
+          text-decoration: underline dotted #6D614E;
+}
 .contact__links__github {
   display: flex;
   flex-direction: row;
@@ -167,6 +172,8 @@
   margin-top: auto;
   margin-bottom: auto;
   color: #3D362B;
+  -webkit-text-decoration: underline dotted #6D614E;
+          text-decoration: underline dotted #6D614E;
 }
 
 .skills {
@@ -401,6 +408,9 @@
 html, body {
   margin: 0;
   padding: 0;
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
   font-family: "mainText";
   font-size: 20px;
   scroll-behavior: smooth;
@@ -420,6 +430,9 @@ button, h2 {
   background: none;
   border: none;
   color: #464638;
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
 }
 
 h1 {
@@ -430,4 +443,7 @@ h1 {
   font-size: 64px;
   color: #6D614E;
   font-weight: normal;
+  -webkit-user-select: none; /* Safari */ /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
 }/*# sourceMappingURL=main.css.map */

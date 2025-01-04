@@ -29,7 +29,10 @@
             flex-direction: row;
             justify-content: space-between;
             padding-left: 9px;
-
+            &__address {
+                color: $textBrown;
+                text-decoration: underline dotted $lightBrown;
+            }
         }
         &__github {
             display: flex;
@@ -39,6 +42,7 @@
                 margin-top: auto;
                 margin-bottom: auto;
                 color: $textBrown;
+                text-decoration: underline dotted $lightBrown;
             }
         }
     }
