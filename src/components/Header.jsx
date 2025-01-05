@@ -19,7 +19,7 @@ const Header = ({ className = 'header', id = 'header' }) => {
                         about me
                     </button>
                 </Link>
-                <Link className={`${className}__menu__projects`} id={`${id}__menu__projects`} to="/projects">
+                <Link className={`${className}__menu__projects`} id={`${id}__menu__projects`} to="/projects#athena">
                     <button
                         className={`${className}__menu__button ${isActive('/projects') ? 'active' : ''}`}
                         id={`${id}__menu__button`}

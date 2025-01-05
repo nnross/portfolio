@@ -401,8 +401,110 @@
   display: flex;
   flex-direction: column;
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 5%;
   right: 0;
+  max-width: 70%;
+}
+
+.athena {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  grid-auto-rows: auto;
+  margin-top: 50px;
+}
+.athena__title {
+  grid-column: 1;
+  grid-row: 1;
+}
+.athena__desc {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 20px 0 20px 0;
+}
+.athena__desct {
+  grid-column: 1;
+  grid-row: 3;
+}
+.athena__research {
+  grid-column: 1;
+  grid-row: 5;
+  margin: 20px 0 20px 0;
+}
+.athena__researcht {
+  grid-column: 1;
+  grid-row: 6;
+}
+.athena__process {
+  grid-column: 2;
+  grid-row: 5;
+  margin: 20px 0 20px 0;
+}
+.athena__processt {
+  grid-column: 2;
+  grid-row: 6;
+}
+.athena__design {
+  grid-column: 1;
+  grid-row: 7;
+  margin: 20px 0 20px 0;
+}
+.athena__colour {
+  grid-column: 1;
+  grid-row: 8;
+  margin: 20px 0 20px 0;
+}
+.athena__typography {
+  grid-column: 2;
+  grid-row: 8;
+  margin: 20px 0 20px 0;
+}
+.athena__sketch {
+  grid-column: 1;
+  grid-row: 9;
+  margin: 20px 0 20px 0;
+}
+.athena__illustration {
+  grid-column: 2;
+  grid-row: 9;
+  margin: 20px 0 20px 0;
+}
+.athena__tools {
+  grid-column: 1;
+  grid-row: 10;
+  margin: 20px 0 20px 0;
+}
+.athena__toolst {
+  grid-column: 1;
+  grid-row: 11;
+}
+.athena__challenges {
+  grid-column: 2;
+  grid-row: 10;
+  margin: 20px 0 20px 0;
+}
+.athena__challengest {
+  grid-column: 2;
+  grid-row: 11;
+}
+.athena__improve {
+  grid-column: 1;
+  grid-row: 12;
+  margin: 20px 0 20px 0;
+}
+.athena__improvet {
+  grid-column: 1;
+  grid-row: 13;
+}
+.athena__reflection {
+  grid-column: 2;
+  grid-row: 12;
+  margin: 20px 0 20px 0;
+}
+.athena__reflectiont {
+  grid-column: 2;
+  grid-row: 13;
 }
 
 html, body {
@@ -414,6 +516,7 @@ html, body {
   font-family: "mainText";
   font-size: 20px;
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
   background-image: url("../assets/background.png");
   background-color: #F3F3F0;
   background-size: cover;

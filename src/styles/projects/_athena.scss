@@ -1,0 +1,100 @@
+.athena {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 20px;
+    grid-auto-rows: auto;
+    margin-top: 50px;
+    &__title {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    &__desc {
+        grid-column: 1;
+        grid-row: 2;
+        margin: 20px 0 20px 0;
+    }
+    &__desct {
+        grid-column: 1;
+        grid-row: 3;
+
+    }
+    &__research {
+        grid-column: 1;
+        grid-row: 5;
+        margin: 20px 0 20px 0;
+    }
+    &__researcht {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    &__process {
+        grid-column: 2;
+        grid-row: 5;
+        margin: 20px 0 20px 0;
+    }
+    &__processt {
+        grid-column: 2;
+        grid-row: 6;
+    }
+    &__design {
+        grid-column: 1;
+        grid-row: 7;
+        margin: 20px 0 20px 0;
+    }
+    &__colour {
+        grid-column: 1;
+        grid-row: 8;
+        margin: 20px 0 20px 0;
+    }
+    &__typography {
+        grid-column: 2;
+        grid-row: 8;
+        margin: 20px 0 20px 0;
+    }
+    &__sketch {
+        grid-column: 1;
+        grid-row: 9;
+        margin: 20px 0 20px 0;
+    }
+    &__illustration {
+        grid-column: 2;
+        grid-row: 9;
+        margin: 20px 0 20px 0;
+    }
+    &__tools {
+        grid-column: 1;
+        grid-row: 10;
+        margin: 20px 0 20px 0;
+    }
+    &__toolst {
+        grid-column: 1;
+        grid-row: 11;
+    }
+    &__challenges {
+        grid-column: 2;
+        grid-row: 10;
+        margin: 20px 0 20px 0;
+    }
+    &__challengest {
+        grid-column: 2;
+        grid-row: 11;
+    }
+    &__improve {
+        grid-column: 1;
+        grid-row: 12;
+        margin: 20px 0 20px 0;
+    }
+    &__improvet {
+        grid-column: 1;
+        grid-row: 13;
+    }
+    &__reflection {
+        grid-column: 2;
+        grid-row: 12;
+        margin: 20px 0 20px 0;
+    }
+    &__reflectiont {
+        grid-column: 2;
+        grid-row: 13;
+    }
+}
