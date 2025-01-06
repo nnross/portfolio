@@ -90,8 +90,10 @@
         grid-column: 1;
         grid-row: 11;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         &__sketch1, &__sketch2 {
-            max-width: 100%;
+            max-width: 50%;
             max-height: 100%;
             object-fit: contain;
             overflow: hidden;
@@ -104,8 +106,10 @@
         grid-column: 1;
         grid-row: 12;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         &__sketch3, &__sketch4 {
-            max-width: 100%;
+            max-width: 50%;
             max-height: 100%;
             object-fit: contain;
             overflow: hidden;

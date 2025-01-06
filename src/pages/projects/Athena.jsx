@@ -5,7 +5,7 @@ const Athena = ({ className = 'athena', id = 'athena' }) => (
       <h1 className={`${className}__title`}>athena</h1>
       <h2 className={`${className}__desc`}>brief description & problem</h2>
       <p className={`${className}__desct`}>
-        Athena is a personal project that I started to work on the problem of boring and unappealing tasks filling everyone’s lives. Aa a solution I came up with a gamified task manager that would heavily rely on two things me and many of my friends like: gacha and cute characters. Combine that with some social media aspects and you also have accountability. The main target audience of Athena is students who enjoy gacha games and cute characters.</p>
+        Athena is a personal project that I’m working on to solve the problem of boring and unappealing tasks filling everyone’s lives. Aa a solution I came up with a gamified task manager that would heavily rely on two things me and many of my friends like: gacha and cute characters. Combine that with some social media aspects and you also have accountability. The main target audience of Athena is students who enjoy gacha games and cute characters.</p>
       <img className={`${className}__frontimg`} src="../src/assets/athena_front.png" alt=""/>
       <h2 className={`${className}__research`}>research & insights</h2>
       <p className={`${className}__researcht`}>The research for this project comes from my studies, where I learned how to effective gamification can be. Also from personal and friends’ use of existing productivity boosting apps. I noticed that they lack something to make the use consistent enough.</p>
