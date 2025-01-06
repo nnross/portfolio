@@ -427,6 +427,15 @@
   grid-column: 1;
   grid-row: 3;
 }
+.athena__frontimg {
+  grid-column: 2;
+  grid-row: 2/4;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+}
 .athena__research {
   grid-column: 1;
   grid-row: 5;
@@ -455,56 +464,186 @@
   grid-row: 8;
   margin: 20px 0 20px 0;
 }
+.athena__paletteimg {
+  grid-column: 1;
+  grid-row: 9;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+}
 .athena__typography {
   grid-column: 2;
   grid-row: 8;
   margin: 20px 0 20px 0;
 }
+.athena__fonts {
+  grid-column: 2;
+  grid-row: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.athena__titleimg, .athena__bodyimg {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+}
 .athena__sketch {
   grid-column: 1;
-  grid-row: 9;
+  grid-row: 10;
   margin: 20px 0 20px 0;
+}
+.athena__sketches1 {
+  grid-column: 1;
+  grid-row: 11;
+  display: flex;
+}
+.athena__sketches1__sketch1, .athena__sketches1__sketch2 {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+  border-radius: 5px;
+  place-self: center;
+  margin: 10px 5px 10px 5px;
+}
+.athena__sketches2 {
+  grid-column: 1;
+  grid-row: 12;
+  display: flex;
+}
+.athena__sketches2__sketch3, .athena__sketches2__sketch4 {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+  border-radius: 5px;
+  place-self: center;
+  margin: 10px 5px 10px 5px;
 }
 .athena__illustration {
   grid-column: 2;
-  grid-row: 9;
+  grid-row: 10;
   margin: 20px 0 20px 0;
+}
+.athena__background {
+  grid-column: 2;
+  grid-row: 11;
+  max-width: 100%;
+  max-height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  margin: 20px 0 20px 0;
+}
+.athena__characters {
+  grid-column: 2;
+  grid-row: 12;
+  display: flex;
+  justify-content: center;
+}
+.athena__characters__1, .athena__characters__2, .athena__characters__3 {
+  max-width: 100%;
+  max-height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.athena__prototype {
+  grid-column: 1;
+  grid-row: 14;
+}
+.athena__homeimg {
+  grid-column: 1;
+  grid-row: 15;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+.athena__taskimg {
+  grid-column: 2;
+  grid-row: 15;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+.athena__feedimg {
+  grid-column: 1;
+  grid-row: 16;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+.athena__gachaimg {
+  grid-column: 2;
+  grid-row: 16;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+.athena__settingsimg {
+  grid-column: 1;
+  grid-row: 17;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
 }
 .athena__tools {
   grid-column: 1;
-  grid-row: 10;
+  grid-row: 18;
   margin: 20px 0 20px 0;
 }
 .athena__toolst {
   grid-column: 1;
-  grid-row: 11;
+  grid-row: 19;
 }
 .athena__challenges {
   grid-column: 2;
-  grid-row: 10;
+  grid-row: 18;
   margin: 20px 0 20px 0;
 }
 .athena__challengest {
   grid-column: 2;
-  grid-row: 11;
+  grid-row: 19;
 }
 .athena__improve {
   grid-column: 1;
-  grid-row: 12;
+  grid-row: 20;
   margin: 20px 0 20px 0;
 }
 .athena__improvet {
   grid-column: 1;
-  grid-row: 13;
+  grid-row: 21;
 }
 .athena__reflection {
   grid-column: 2;
-  grid-row: 12;
+  grid-row: 20;
   margin: 20px 0 20px 0;
 }
 .athena__reflectiont {
   grid-column: 2;
-  grid-row: 13;
+  grid-row: 21;
 }
 
 html, body {
