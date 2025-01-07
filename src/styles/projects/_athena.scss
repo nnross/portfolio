@@ -74,12 +74,13 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
-    }
-    &__titleimg, &__bodyimg {
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
+        &__titleimg, &__bodyimg {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            overflow: hidden;
+            border-radius: 5px;
+        }
     }
     &__sketch {
         grid-column: 1;
@@ -138,9 +139,13 @@
         display: flex;
         justify-content: center;
         &__1, &__2, &__3 {
-            max-width: 100%;
-            max-height: 300px;
+            width: 100%; 
+            height: auto;
+            max-height: 300px; 
             object-fit: contain;
+            overflow: hidden;
+            max-width: 100%; 
+            box-sizing: border-box;
         }
     }
     &__prototype {
