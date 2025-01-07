@@ -1,4 +1,4 @@
-.athena {
+.recipe {
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 20px;
@@ -27,37 +27,37 @@
         object-fit: contain;
         border-radius: 5px;
     }
-    &__research {
-        grid-column: 1;
-        grid-row: 5;
-        margin: 20px 0 20px 0;
-    }
-    &__researcht {
-        grid-column: 1;
-        grid-row: 6;
-    }
     &__process {
-        grid-column: 2;
-        grid-row: 5;
+        grid-column: 1;
+        grid-row: 4;
         margin: 20px 0 20px 0;
     }
     &__processt {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    &__tools {
         grid-column: 2;
-        grid-row: 6;
+        grid-row: 4;
+        margin: 20px 0 20px 0;
+    }
+    &__toolst {
+        grid-column: 2;
+        grid-row: 5;
     }
     &__design {
         grid-column: 1;
-        grid-row: 7;
+        grid-row: 6;
         margin: 20px 0 20px 0;
     }
     &__colour {
         grid-column: 1;
-        grid-row: 8;
+        grid-row: 7;
         margin: 20px 0 20px 0;
     }
     &__paletteimg {
         grid-column: 1;
-        grid-row: 9;
+        grid-row: 8;
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
@@ -65,173 +65,114 @@
     }
     &__typography {
         grid-column: 2;
-        grid-row: 8;
+        grid-row: 7;
         margin: 20px 0 20px 0;
     }
     &__fonts {
         grid-column: 2;
-        grid-row: 9;
+        grid-row: 8;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        &__titleimg, &__bodyimg {
+        &__titleimg, &__homeimg, &__bodyimg {
             max-width: 100%;
             max-height: 100%;
             object-fit: contain;
-            overflow: hidden;
             border-radius: 5px;
-        }
-    }
-    &__sketch {
-        grid-column: 1;
-        grid-row: 10;
-        margin: 20px 0 20px 0;
-    }
-    &__sketches1 {
-        grid-column: 1;
-        grid-row: 11;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        &__sketch1, &__sketch2 {
-            max-width: 50%;
-            max-height: 100%;
-            object-fit: contain;
-            overflow: hidden;
-            border-radius: 5px;
-            place-self: center;
-            margin: 10px 5px 10px 5px;
-        }
-    }
-    &__sketches2 {
-        grid-column: 1;
-        grid-row: 12;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        &__sketch3, &__sketch4 {
-            max-width: 50%;
-            max-height: 100%;
-            object-fit: contain;
-            overflow: hidden;
-            border-radius: 5px;
-            place-self: center;
-            margin: 10px 5px 10px 5px;
-        }
-    }
-    &__illustration {
-        grid-column: 2;
-        grid-row: 10;
-        margin: 20px 0 20px 0;
-    }
-    &__background {
-        grid-column: 2;
-        grid-row: 11;
-        max-width: 100%;
-        max-height: 300px;
-        object-fit: contain;
-        border-radius: 5px;
-        margin: 20px 0 20px 0;
-    }
-    &__characters {
-        grid-column: 2;
-        grid-row: 12;
-        display: flex;
-        justify-content: center;
-        &__1, &__2, &__3 {
-            width: auto; 
-            height: 100%;
-            max-height: 300px; 
-            object-fit: contain;
-            overflow: hidden;
-            max-width: 100%; 
-            box-sizing: border-box;
         }
     }
     &__prototype {
         grid-column: 1;
-        grid-row: 14;
+        grid-row: 9;
+        margin: 20px 0 20px 0;
     }
     &__homeimg {
         grid-column: 1;
-        grid-row: 15;
+        grid-row: 10;
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
-        margin: 10px 0 10px 0;
     }
-    &__taskimg {
+    &__searchimg {
         grid-column: 2;
-        grid-row: 15;
+        grid-row: 10;
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
-        margin: 10px 0 10px 0;
     }
-    &__feedimg {
+    &__recipeimg {
         grid-column: 1;
-        grid-row: 16;
+        grid-row: 11;
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
-        margin: 10px 0 10px 0;
+        margin-top: 20px;
     }
-    &__gachaimg {
+    &__profileimg {
         grid-column: 2;
-        grid-row: 16;
+        grid-row: 11;
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
-        margin: 10px 0 10px 0;
+        margin-top: 20px;
     }
-    &__settingsimg {
+    &__homeimgmob {
         grid-column: 1;
-        grid-row: 17;
+        grid-row: 12;
         max-width: 100%;
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
-        margin: 10px 0 10px 0;
     }
-    &__tools {
-        grid-column: 1;
-        grid-row: 18;
-        margin: 20px 0 20px 0;
+    &__searchimgmob {
+        grid-column: 2;
+        grid-row: 12;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border-radius: 5px;
     }
-    &__toolst {
+    &__recipeimgmob {
         grid-column: 1;
-        grid-row: 19;
+        grid-row: 13;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    &__profileimgmob {
+        grid-column: 2;
+        grid-row: 13;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border-radius: 5px;
+        margin-top: 20px;
     }
     &__challenges {
-        grid-column: 2;
-        grid-row: 18;
+        grid-column: 1;
+        grid-row: 14;
         margin: 20px 0 20px 0;
     }
     &__challengest {
-        grid-column: 2;
-        grid-row: 19;
-    }
-    &__improve {
         grid-column: 1;
-        grid-row: 20;
+        grid-row: 15;
         margin: 20px 0 20px 0;
-    }
-    &__improvet {
-        grid-column: 1;
-        grid-row: 21;
     }
     &__reflection {
         grid-column: 2;
-        grid-row: 20;
+        grid-row: 14;
         margin: 20px 0 20px 0;
     }
     &__reflectiont {
         grid-column: 2;
-        grid-row: 21;
+        grid-row: 15;
+        margin: 20px 0 20px 0;
     }
 }

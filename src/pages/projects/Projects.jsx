@@ -4,7 +4,7 @@ import Athena from './Athena';
 import Yuki from './Yuki';
 import Grcries from './Grcries';
 import Recipe from './Recipe';
-import Illustration from './Illustration';
+import Miscellaneous from './Miscellaneous';
 
 const Projects = ({ className = 'projects', id = 'projects' }) => (
   <div className={className} id={id}>
@@ -16,7 +16,7 @@ const Projects = ({ className = 'projects', id = 'projects' }) => (
       <Yuki />
       <Grcries />
       <Recipe />
-      <Illustration />
+      <Miscellaneous />
     </div>
   </div>
 );

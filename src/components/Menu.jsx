@@ -13,15 +13,15 @@ const Menu = ({ className = 'menu', id = 'menu', type }) => {
             <a className={`${className}__list__item ${isActive('#athena') ? 'active' : ''}`} href="#athena">athena</a>
             <a className={`${className}__list__item ${isActive('#yuki') ? 'active' : ''}`} href="#yuki">cafe yuki</a>
             <a className={`${className}__list__item ${isActive('#grcries') ? 'active' : ''}`} href="#grcries">grcries</a>
-            <a className={`${className}__list__item ${isActive('#recipe') ? 'active' : ''}`} href="#recipe">recipebuddies</a>
-            <a className={`${className}__list__item ${isActive('#illustration') ? 'active' : ''}`} href="#illustration">illustrations</a>
+            <a className={`${className}__list__item ${isActive('#recipe') ? 'active' : ''}`} href="#recipe">recipebuddy</a>
+            <a className={`${className}__list__item ${isActive('#miscellaneous') ? 'active' : ''}`} href="#miscellaneous">miscellaneous</a>
         </nav>)
         :
         (<nav className={`${className}__list`} id={`${id}__list`}>
             <a className={`${className}__list__item ${isActive('#athena') ? 'active' : ''}`} href="#athena">test</a>
             <a className={`${className}__list__item ${isActive('#yuki') ? 'active' : ''}`} href="#yuki">cafe yuki</a>
             <a className={`${className}__list__item ${isActive('#grcries') ? 'active' : ''}`} href="#grcries">grcries</a>
-            <a className={`${className}__list__item ${isActive('#recipe') ? 'active' : ''}`} href="#recipe">recipebuddies</a>
+            <a className={`${className}__list__item ${isActive('#recipe') ? 'active' : ''}`} href="#recipe">recipebuddy</a>
             <a className={`${className}__list__item ${isActive('#illustration') ? 'active' : ''}`} href="#illustration">illustrations</a>
         </nav>)
         }
