@@ -7,7 +7,6 @@ import Athena from "./Athena";
 import Yuki from "./Yuki";
 import Grcries from "./Grcries";
 import Recipe from "./Recipe";
-import Miscellaneous from "./Miscellaneous";
 
 const Projects = ({ className = "projects", id = "projects" }) => {
   const navigate = useNavigate();
@@ -52,7 +51,6 @@ const Projects = ({ className = "projects", id = "projects" }) => {
         <Yuki refe={yukiRef} />
         <Grcries refer={grcriesRef} />
         <Recipe refer={recipeRef} />
-        <Miscellaneous />
       </div>
     </div>
   );

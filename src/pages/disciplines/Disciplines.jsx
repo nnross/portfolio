@@ -1,10 +1,7 @@
-import propTypes from 'prop-types';
-import Menu from '../../components/Menu';
+import propTypes from "prop-types";
 
-const Disciplines = ({ className = 'disciplines', id = 'disciplines' }) => (
-  <div className={className} id={id}>
-    <Menu type='disciplines' />
-  </div>
+const Disciplines = ({ className = "disciplines", id = "disciplines" }) => (
+  <div className={className} id={id}></div>
 );
 
 export default Disciplines;

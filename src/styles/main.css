@@ -103,6 +103,13 @@
   flex-direction: column;
   justify-content: center;
 }
+.about__lists__logos {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 100%;
+  margin-bottom: 30px;
+}
 
 .intro {
   display: grid;
@@ -315,6 +322,9 @@
   padding: 10px 15px;
   width: 150px;
 }
+.list__list__ongoing {
+  color: #6D614E;
+}
 
 .hobbies {
   display: grid;
@@ -410,7 +420,7 @@
   display: flex;
   flex-direction: column;
   margin-left: auto;
-  margin-right: 5%;
+  margin-right: 7%;
   right: 0;
   max-width: 70%;
 }
@@ -962,6 +972,7 @@
   row-gap: 10px;
   grid-auto-rows: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .recipe__title {
   grid-column: 1;

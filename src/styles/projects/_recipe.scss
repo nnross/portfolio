@@ -1,188 +1,190 @@
 .recipe {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 20px;
-    row-gap: 10px;
-    grid-auto-rows: auto;
-    margin-top: 50px;
-    &__title {
-        grid-column: 1;
-        grid-row: 1;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+  row-gap: 10px;
+  grid-auto-rows: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  &__title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  &__desc {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 20px 0 20px 0;
+  }
+  &__desct {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  &__frontimg {
+    grid-column: 2;
+    grid-row: 2 / 4;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__process {
+    grid-column: 1;
+    grid-row: 4;
+    margin: 20px 0 20px 0;
+  }
+  &__processt {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  &__tools {
+    grid-column: 2;
+    grid-row: 4;
+    margin: 20px 0 20px 0;
+  }
+  &__toolst {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  &__design {
+    grid-column: 1;
+    grid-row: 6;
+    margin: 20px 0 20px 0;
+  }
+  &__colour {
+    grid-column: 1;
+    grid-row: 7;
+    margin: 20px 0 20px 0;
+  }
+  &__paletteimg {
+    grid-column: 1;
+    grid-row: 8;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__typography {
+    grid-column: 2;
+    grid-row: 7;
+    margin: 20px 0 20px 0;
+  }
+  &__fonts {
+    grid-column: 2;
+    grid-row: 8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    &__titleimg,
+    &__homeimg,
+    &__bodyimg {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      border-radius: 5px;
     }
-    &__desc {
-        grid-column: 1;
-        grid-row: 2;
-        margin: 20px 0 20px 0;
-    }
-    &__desct {
-        grid-column: 1;
-        grid-row: 3;
-
-    }
-    &__frontimg {
-        grid-column: 2;
-        grid-row: 2 / 4;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
-    }
-    &__process {
-        grid-column: 1;
-        grid-row: 4;
-        margin: 20px 0 20px 0;
-    }
-    &__processt {
-        grid-column: 1;
-        grid-row: 5;
-    }
-    &__tools {
-        grid-column: 2;
-        grid-row: 4;
-        margin: 20px 0 20px 0;
-    }
-    &__toolst {
-        grid-column: 2;
-        grid-row: 5;
-    }
-    &__design {
-        grid-column: 1;
-        grid-row: 6;
-        margin: 20px 0 20px 0;
-    }
-    &__colour {
-        grid-column: 1;
-        grid-row: 7;
-        margin: 20px 0 20px 0;
-    }
-    &__paletteimg {
-        grid-column: 1;
-        grid-row: 8;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
-    }
-    &__typography {
-        grid-column: 2;
-        grid-row: 7;
-        margin: 20px 0 20px 0;
-    }
-    &__fonts {
-        grid-column: 2;
-        grid-row: 8;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        &__titleimg, &__homeimg, &__bodyimg {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-            border-radius: 5px;
-        }
-    }
-    &__prototype {
-        grid-column: 1;
-        grid-row: 9;
-        margin: 20px 0 20px 0;
-    }
-    &__homeimg {
-        grid-column: 1;
-        grid-row: 10;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
-    }
-    &__searchimg {
-        grid-column: 2;
-        grid-row: 10;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
-    }
-    &__recipeimg {
-        grid-column: 1;
-        grid-row: 11;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin-top: 20px;
-        place-self: center;
-    }
-    &__profileimg {
-        grid-column: 2;
-        grid-row: 11;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin-top: 20px;
-        place-self: center;
-    }
-    &__homeimgmob {
-        grid-column: 1;
-        grid-row: 12;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
-    }
-    &__searchimgmob {
-        grid-column: 2;
-        grid-row: 12;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
-    }
-    &__recipeimgmob {
-        grid-column: 1;
-        grid-row: 13;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin-top: 20px;
-        place-self: center;
-    }
-    &__profileimgmob {
-        grid-column: 2;
-        grid-row: 13;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin-top: 20px;
-        place-self: center;
-    }
-    &__challenges {
-        grid-column: 1;
-        grid-row: 14;
-        margin: 20px 0 20px 0;
-    }
-    &__challengest {
-        grid-column: 1;
-        grid-row: 15;
-        margin: 20px 0 20px 0;
-    }
-    &__reflection {
-        grid-column: 2;
-        grid-row: 14;
-        margin: 20px 0 20px 0;
-    }
-    &__reflectiont {
-        grid-column: 2;
-        grid-row: 15;
-        margin: 20px 0 20px 0;
-    }
+  }
+  &__prototype {
+    grid-column: 1;
+    grid-row: 9;
+    margin: 20px 0 20px 0;
+  }
+  &__homeimg {
+    grid-column: 1;
+    grid-row: 10;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__searchimg {
+    grid-column: 2;
+    grid-row: 10;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__recipeimg {
+    grid-column: 1;
+    grid-row: 11;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-top: 20px;
+    place-self: center;
+  }
+  &__profileimg {
+    grid-column: 2;
+    grid-row: 11;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-top: 20px;
+    place-self: center;
+  }
+  &__homeimgmob {
+    grid-column: 1;
+    grid-row: 12;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__searchimgmob {
+    grid-column: 2;
+    grid-row: 12;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__recipeimgmob {
+    grid-column: 1;
+    grid-row: 13;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-top: 20px;
+    place-self: center;
+  }
+  &__profileimgmob {
+    grid-column: 2;
+    grid-row: 13;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-top: 20px;
+    place-self: center;
+  }
+  &__challenges {
+    grid-column: 1;
+    grid-row: 14;
+    margin: 20px 0 20px 0;
+  }
+  &__challengest {
+    grid-column: 1;
+    grid-row: 15;
+    margin: 20px 0 20px 0;
+  }
+  &__reflection {
+    grid-column: 2;
+    grid-row: 14;
+    margin: 20px 0 20px 0;
+  }
+  &__reflectiont {
+    grid-column: 2;
+    grid-row: 15;
+    margin: 20px 0 20px 0;
+  }
 }

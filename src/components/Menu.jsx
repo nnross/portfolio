@@ -39,14 +39,6 @@ const Menu = ({ className = "menu", id = "menu" }) => {
         >
           recipebuddy
         </a>
-        <a
-          className={`${className}__list__item ${
-            location.hash === "#miscellaneous" ? "active" : ""
-          }`}
-          href="#miscellaneous"
-        >
-          miscellaneous
-        </a>
       </nav>
     </div>
   );
