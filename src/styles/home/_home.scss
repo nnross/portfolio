@@ -8,11 +8,21 @@
     background-repeat: no-repeat;
     background-position: center; 
     background-attachment: fixed;
+    &__link {
+        cursor: default;
+    }
     &__title {
         cursor: default;
         user-select: none;
         margin: 0;
         width: 100vw;
         height: 100vh;
+    }
+    &__text {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $lightBrown;
     }
 }

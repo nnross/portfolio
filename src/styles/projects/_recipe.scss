@@ -26,6 +26,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__process {
         grid-column: 1;
@@ -62,6 +63,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__typography {
         grid-column: 2;
@@ -94,6 +96,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__searchimg {
         grid-column: 2;
@@ -102,6 +105,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__recipeimg {
         grid-column: 1;
@@ -111,6 +115,7 @@
         object-fit: contain;
         border-radius: 5px;
         margin-top: 20px;
+        place-self: center;
     }
     &__profileimg {
         grid-column: 2;
@@ -120,6 +125,7 @@
         object-fit: contain;
         border-radius: 5px;
         margin-top: 20px;
+        place-self: center;
     }
     &__homeimgmob {
         grid-column: 1;
@@ -128,6 +134,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__searchimgmob {
         grid-column: 2;
@@ -136,6 +143,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__recipeimgmob {
         grid-column: 1;
@@ -145,6 +153,7 @@
         object-fit: contain;
         border-radius: 5px;
         margin-top: 20px;
+        place-self: center;
     }
     &__profileimgmob {
         grid-column: 2;
@@ -154,6 +163,7 @@
         object-fit: contain;
         border-radius: 5px;
         margin-top: 20px;
+        place-self: center;
     }
     &__challenges {
         grid-column: 1;

@@ -6,6 +6,9 @@ const Home = ({ className = 'home', id = 'home' }) => (
     <Link className={`${className}__link`} id={`${id}__link`} to="/about">
       <img className={`${className}__title`} id={`${id}__title`} src="../src/assets/frontPage.svg" alt="UI/UX design and frontend development portfolio, Nelli Rossi, 2024-2025" />
     </Link>
+    <Link className={`${className}__link`} id={`${id}__link`} to="/about">
+      <p className={`${className}__text`}>click anywhere to continue</p>
+    </Link>
   </div>
 );
 

@@ -53,6 +53,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__typography {
         grid-column: 2;
@@ -80,6 +81,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__menuimg {
         grid-column: 2;
@@ -88,6 +90,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__tabletimg {
         grid-column: 2;
@@ -96,6 +99,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__tools {
         grid-column: 1;

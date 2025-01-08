@@ -53,6 +53,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__typography {
         grid-column: 2;
@@ -85,6 +86,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: start center;
     }
     &__listimg {
         grid-column: 2;
@@ -93,6 +95,7 @@
         max-height: 100%;
         object-fit: contain;
         border-radius: 5px;
+        place-self: center;
     }
     &__newimg {
         grid-column: 1;
@@ -102,6 +105,7 @@
         object-fit: contain;
         border-radius: 5px;
         margin-top: 20px;
+        place-self: center;
     }
     &__activeimg {
         grid-column: 2;
@@ -111,6 +115,7 @@
         object-fit: contain;
         border-radius: 5px;
         margin-top: 20px;
+        place-self: center;
     }
     &__tools {
         grid-column: 1;
