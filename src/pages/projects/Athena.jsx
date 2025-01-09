@@ -13,11 +13,7 @@ const Athena = ({ className = "athena", id = "athena" }) => (
       target audience of Athena is students who enjoy gacha games and cute
       characters.
     </p>
-    <img
-      className={`${className}__frontimg`}
-      src="../src/assets/athena_front.png"
-      alt=""
-    />
+    <img className={`${className}__frontimg`} src="/athena_front.png" alt="" />
     <h2 className={`${className}__research`}>research & insights</h2>
     <p className={`${className}__researcht`}>
       The research for this project comes from my studies, where I learned how
@@ -35,19 +31,19 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     <p className={`${className}__colour`}>colour scheme</p>
     <img
       className={`${className}__paletteimg`}
-      src="../src/assets/athena_palette.svg"
+      src="/athena_palette.svg"
       alt=""
     />
     <p className={`${className}__typography`}>typography</p>
     <div className={`${className}__fonts`}>
       <img
         className={`${className}__fonts__titleimg`}
-        src="../src/assets/athena_title.svg"
+        src="/athena_title.svg"
         alt=""
       />
       <img
         className={`${className}__fonts__bodyimg`}
-        src="../src/assets/athena_body.svg"
+        src="/athena_body.svg"
         alt=""
       />
     </div>
@@ -55,74 +51,58 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     <div className={`${className}__sketches1`}>
       <img
         className={`${className}__sketches1__sketch1`}
-        src="../src/assets/sketch_home.png"
+        src="/sketch_home.png"
         alt=""
       />
       <img
         className={`${className}__sketches1__sketch2`}
-        src="../src/assets/sketch_feed.png"
+        src="/sketch_feed.png"
         alt=""
       />
     </div>
     <div className={`${className}__sketches2`}>
       <img
         className={`${className}__sketches2__sketch3`}
-        src="../src/assets/sketch_task.png"
+        src="/sketch_task.png"
         alt=""
       />
       <img
         className={`${className}__sketches2__sketch4`}
-        src="../src/assets/sketch_gacha.png"
+        src="/sketch_gacha.png"
         alt=""
       />
     </div>
     <p className={`${className}__illustration`}>illustrations</p>
     <img
       className={`${className}__background`}
-      src="../src/assets/athena_background.png"
+      src="/athena_background.png"
       alt=""
     />
     <div className={`${className}__characters`}>
       <img
         className={`${className}__characters__1`}
-        src="../src/assets/character_1.png"
+        src="/character_1.PNG"
         alt=""
       />
       <img
         className={`${className}__characters__2`}
-        src="../src/assets/character_2.png"
+        src="/character_2.PNG"
         alt=""
       />
       <img
         className={`${className}__characters__3`}
-        src="../src/assets/character_3.png"
+        src="/character_3.PNG"
         alt=""
       />
     </div>
     <p className={`${className}__prototype`}>prototype</p>
-    <img
-      className={`${className}__homeimg`}
-      src="../src/assets/athena_home.png"
-      alt=""
-    />
-    <img
-      className={`${className}__taskimg`}
-      src="../src/assets/athena_task.png"
-      alt=""
-    />
-    <img
-      className={`${className}__feedimg`}
-      src="../src/assets/athena_feed.png"
-      alt=""
-    />
-    <img
-      className={`${className}__gachaimg`}
-      src="../src/assets/athena_gacha.png"
-      alt=""
-    />
+    <img className={`${className}__homeimg`} src="/athena_home.png" alt="" />
+    <img className={`${className}__taskimg`} src="/athena_task.png" alt="" />
+    <img className={`${className}__feedimg`} src="/athena_feed.png" alt="" />
+    <img className={`${className}__gachaimg`} src="/athena_gacha.png" alt="" />
     <img
       className={`${className}__settingsimg`}
-      src="../src/assets/athena_settings.png"
+      src="/athena_settings.png"
       alt=""
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>

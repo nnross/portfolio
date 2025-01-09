@@ -11,11 +11,7 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
       idea was to create a recipe website where you could have an account, save
       recipes to lists and a calendar, and see statistics.{" "}
     </p>
-    <img
-      className={`${className}__frontimg`}
-      src="../src/assets/recipe_home.png"
-      alt=""
-    />
+    <img className={`${className}__frontimg`} src="/recipe_home.png" alt="" />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
       We wanted to test scrum in practice while doing this project, so that’s
@@ -27,66 +23,58 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
     <p className={`${className}__colour`}>colour scheme</p>
     <img
       className={`${className}__paletteimg`}
-      src="../src/assets/recipe_palette.svg"
+      src="/recipe_palette.svg"
       alt=""
     />
     <p className={`${className}__typography`}>typography</p>
     <div className={`${className}__fonts`}>
       <img
         className={`${className}__fonts__titleimg`}
-        src="../src/assets/recipe_logo.svg"
+        src="/recipe_logo.svg"
         alt=""
       />
       <img
         className={`${className}__fonts__homeimg`}
-        src="../src/assets/recipe_homefont.svg"
+        src="/recipe_homefont.svg"
         alt=""
       />
       <img
         className={`${className}__fonts__bodyimg`}
-        src="../src/assets/recipe_font.svg"
+        src="/recipe_font.svg"
         alt=""
       />
     </div>
     <p className={`${className}__prototype`}>prototype</p>
-    <img
-      className={`${className}__homeimg`}
-      src="../src/assets/recipe_home.png"
-      alt=""
-    />
+    <img className={`${className}__homeimg`} src="/recipe_home.png" alt="" />
     <img
       className={`${className}__searchimg`}
-      src="../src/assets/recipe_search.png"
+      src="/recipe_search.png"
       alt=""
     />
-    <img
-      className={`${className}__recipeimg`}
-      src="../src/assets/recipe_open.png"
-      alt=""
-    />
+    <img className={`${className}__recipeimg`} src="/recipe_open.png" alt="" />
     <img
       className={`${className}__profileimg`}
-      src="../src/assets/recipe_profile.png"
+      src="/recipe_profile.png"
       alt=""
     />
     <img
       className={`${className}__homeimgmob`}
-      src="../src/assets/recipe_home_mobile.png"
+      src="/recipe_home_mobile.png"
       alt=""
     />
     <img
       className={`${className}__searchimgmob`}
-      src="../src/assets/recipe_search_mobile.png"
+      src="/recipe_search_mobile.png"
       alt=""
     />
     <img
       className={`${className}__recipeimgmob`}
-      src="../src/assets/recipe_open_mobile.png"
+      src="/recipe_open_mobile.png"
       alt=""
     />
     <img
       className={`${className}__profileimgmob`}
-      src="../src/assets/recipe_profile_mobile.png"
+      src="/recipe_profile_mobile.png"
       alt=""
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>

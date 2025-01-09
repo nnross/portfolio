@@ -12,11 +12,7 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
       finally a usability testing plan. The requirements for the app were a very
       specific 16-point list.{" "}
     </p>
-    <img
-      className={`${className}__screenimg`}
-      src="../src/assets/grcries_home.png"
-      alt=""
-    />
+    <img className={`${className}__screenimg`} src="/grcries_home.png" alt="" />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
       I first started to think about what kind of target audience I would want
@@ -29,41 +25,29 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
     <p className={`${className}__colour`}>colour scheme</p>
     <img
       className={`${className}__paletteimg`}
-      src="../src/assets/grcries_palette.svg"
+      src="/grcries_palette.svg"
       alt=""
     />
     <p className={`${className}__typography`}>typography</p>
     <div className={`${className}__fonts`}>
       <img
         className={`${className}__fonts__logoimg`}
-        src="../src/assets/grcries_logo.svg"
+        src="/grcries_logo.svg"
         alt=""
       />
       <img
         className={`${className}__fonts__bodyimg`}
-        src="../src/assets/grcries_font.svg"
+        src="/grcries_font.svg"
         alt=""
       />
     </div>
     <p className={`${className}__prototype`}>prototype</p>
-    <img
-      className={`${className}__homeimg`}
-      src="../src/assets/grcries_home.png"
-      alt=""
-    />
-    <img
-      className={`${className}__listimg`}
-      src="../src/assets/grcries_items.png"
-      alt=""
-    />
-    <img
-      className={`${className}__newimg`}
-      src="../src/assets/grcries_new.png"
-      alt=""
-    />
+    <img className={`${className}__homeimg`} src="/grcries_home.png" alt="" />
+    <img className={`${className}__listimg`} src="/grcries_items.png" alt="" />
+    <img className={`${className}__newimg`} src="/grcries_new.png" alt="" />
     <img
       className={`${className}__activeimg`}
-      src="../src/assets/grcries_active.png"
+      src="/grcries_active.png"
       alt=""
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>

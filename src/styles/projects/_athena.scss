@@ -1,245 +1,249 @@
 .athena {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 20px;
-    row-gap: 10px;
-    grid-auto-rows: auto;
-    margin-top: 50px;
-    &__title {
-        grid-column: 1;
-        grid-row: 1;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 20px;
+  row-gap: 10px;
+  grid-auto-rows: auto;
+  margin-top: 50px;
+  &__title {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  &__desc {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 20px 0 20px 0;
+  }
+  &__desct {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  &__frontimg {
+    grid-column: 2;
+    grid-row: 2 / 4;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__research {
+    grid-column: 1;
+    grid-row: 5;
+    margin: 20px 0 20px 0;
+  }
+  &__researcht {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  &__process {
+    grid-column: 2;
+    grid-row: 5;
+    margin: 20px 0 20px 0;
+  }
+  &__processt {
+    grid-column: 2;
+    grid-row: 6;
+  }
+  &__design {
+    grid-column: 1;
+    grid-row: 7;
+    margin: 20px 0 20px 0;
+  }
+  &__colour {
+    grid-column: 1;
+    grid-row: 8;
+    margin: 20px 0 20px 0;
+  }
+  &__paletteimg {
+    grid-column: 1;
+    grid-row: 9;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    place-self: center;
+  }
+  &__typography {
+    grid-column: 2;
+    grid-row: 8;
+    margin: 20px 0 20px 0;
+  }
+  &__fonts {
+    grid-column: 2;
+    grid-row: 9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    &__titleimg,
+    &__bodyimg {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      overflow: hidden;
+      border-radius: 5px;
     }
-    &__desc {
-        grid-column: 1;
-        grid-row: 2;
-        margin: 20px 0 20px 0;
+  }
+  &__sketch {
+    grid-column: 1;
+    grid-row: 10;
+    margin: 20px 0 20px 0;
+  }
+  &__sketches1 {
+    grid-column: 1;
+    grid-row: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__sketch1,
+    &__sketch2 {
+      max-width: 50%;
+      max-height: 100%;
+      object-fit: contain;
+      overflow: hidden;
+      border-radius: 5px;
+      place-self: center;
+      margin: 10px 5px 10px 5px;
     }
-    &__desct {
-        grid-column: 1;
-        grid-row: 3;
-
+  }
+  &__sketches2 {
+    grid-column: 1;
+    grid-row: 12;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__sketch3,
+    &__sketch4 {
+      max-width: 50%;
+      max-height: 100%;
+      object-fit: contain;
+      overflow: hidden;
+      border-radius: 5px;
+      place-self: center;
+      margin: 10px 5px 10px 5px;
     }
-    &__frontimg {
-        grid-column: 2;
-        grid-row: 2 / 4;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
+  }
+  &__illustration {
+    grid-column: 2;
+    grid-row: 10;
+    margin: 20px 0 20px 0;
+  }
+  &__background {
+    grid-column: 2;
+    grid-row: 11;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+    place-self: center;
+  }
+  &__characters {
+    grid-column: 2;
+    grid-row: 11;
+    display: flex;
+    justify-content: center;
+    &__1,
+    &__2,
+    &__3 {
+      width: auto;
+      height: 100%;
+      max-height: 300px;
+      object-fit: contain;
+      overflow: hidden;
+      max-width: 100%;
+      box-sizing: border-box;
     }
-    &__research {
-        grid-column: 1;
-        grid-row: 5;
-        margin: 20px 0 20px 0;
-    }
-    &__researcht {
-        grid-column: 1;
-        grid-row: 6;
-    }
-    &__process {
-        grid-column: 2;
-        grid-row: 5;
-        margin: 20px 0 20px 0;
-    }
-    &__processt {
-        grid-column: 2;
-        grid-row: 6;
-    }
-    &__design {
-        grid-column: 1;
-        grid-row: 7;
-        margin: 20px 0 20px 0;
-    }
-    &__colour {
-        grid-column: 1;
-        grid-row: 8;
-        margin: 20px 0 20px 0;
-    }
-    &__paletteimg {
-        grid-column: 1;
-        grid-row: 9;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        place-self: center;
-    }
-    &__typography {
-        grid-column: 2;
-        grid-row: 8;
-        margin: 20px 0 20px 0;
-    }
-    &__fonts {
-        grid-column: 2;
-        grid-row: 9;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        &__titleimg, &__bodyimg {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
-            overflow: hidden;
-            border-radius: 5px;
-        }
-    }
-    &__sketch {
-        grid-column: 1;
-        grid-row: 10;
-        margin: 20px 0 20px 0;
-    }
-    &__sketches1 {
-        grid-column: 1;
-        grid-row: 11;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        &__sketch1, &__sketch2 {
-            max-width: 50%;
-            max-height: 100%;
-            object-fit: contain;
-            overflow: hidden;
-            border-radius: 5px;
-            place-self: center;
-            margin: 10px 5px 10px 5px;
-        }
-    }
-    &__sketches2 {
-        grid-column: 1;
-        grid-row: 12;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        &__sketch3, &__sketch4 {
-            max-width: 50%;
-            max-height: 100%;
-            object-fit: contain;
-            overflow: hidden;
-            border-radius: 5px;
-            place-self: center;
-            margin: 10px 5px 10px 5px;
-        }
-    }
-    &__illustration {
-        grid-column: 2;
-        grid-row: 10;
-        margin: 20px 0 20px 0;
-    }
-    &__background {
-        grid-column: 2;
-        grid-row: 11;
-        max-width: 100%;
-        max-height: 300px;
-        object-fit: contain;
-        border-radius: 5px;
-        margin: 20px 0 20px 0;
-        place-self: center;
-    }
-    &__characters {
-        grid-column: 2;
-        grid-row: 12;
-        display: flex;
-        justify-content: center;
-        &__1, &__2, &__3 {
-            width: auto; 
-            height: 100%;
-            max-height: 300px; 
-            object-fit: contain;
-            overflow: hidden;
-            max-width: 100%; 
-            box-sizing: border-box;
-        }
-    }
-    &__prototype {
-        grid-column: 1;
-        grid-row: 14;
-    }
-    &__homeimg {
-        grid-column: 1;
-        grid-row: 15;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin: 10px 0 10px 0;
-        place-self: center;
-    }
-    &__taskimg {
-        grid-column: 2;
-        grid-row: 15;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin: 10px 0 10px 0;
-        place-self: center;
-    }
-    &__feedimg {
-        grid-column: 1;
-        grid-row: 16;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin: 10px 0 10px 0;
-        place-self: center;
-    }
-    &__gachaimg {
-        grid-column: 2;
-        grid-row: 16;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin: 10px 0 10px 0;
-        place-self: center;
-    }
-    &__settingsimg {
-        grid-column: 1;
-        grid-row: 17;
-        max-width: 100%;
-        max-height: 100%;
-        object-fit: contain;
-        border-radius: 5px;
-        margin: 10px 0 10px 0;
-        place-self: center;
-    }
-    &__tools {
-        grid-column: 1;
-        grid-row: 18;
-        margin: 20px 0 20px 0;
-    }
-    &__toolst {
-        grid-column: 1;
-        grid-row: 19;
-    }
-    &__challenges {
-        grid-column: 2;
-        grid-row: 18;
-        margin: 20px 0 20px 0;
-    }
-    &__challengest {
-        grid-column: 2;
-        grid-row: 19;
-    }
-    &__improve {
-        grid-column: 1;
-        grid-row: 20;
-        margin: 20px 0 20px 0;
-    }
-    &__improvet {
-        grid-column: 1;
-        grid-row: 21;
-    }
-    &__reflection {
-        grid-column: 2;
-        grid-row: 20;
-        margin: 20px 0 20px 0;
-    }
-    &__reflectiont {
-        grid-column: 2;
-        grid-row: 21;
-    }
+  }
+  &__prototype {
+    grid-column: 1;
+    grid-row: 14;
+  }
+  &__homeimg {
+    grid-column: 1;
+    grid-row: 15;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    place-self: center;
+  }
+  &__taskimg {
+    grid-column: 2;
+    grid-row: 15;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    place-self: center;
+  }
+  &__feedimg {
+    grid-column: 1;
+    grid-row: 16;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    place-self: center;
+  }
+  &__gachaimg {
+    grid-column: 2;
+    grid-row: 16;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    place-self: center;
+  }
+  &__settingsimg {
+    grid-column: 1;
+    grid-row: 17;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    place-self: center;
+  }
+  &__tools {
+    grid-column: 1;
+    grid-row: 18;
+    margin: 20px 0 20px 0;
+  }
+  &__toolst {
+    grid-column: 1;
+    grid-row: 19;
+  }
+  &__challenges {
+    grid-column: 2;
+    grid-row: 18;
+    margin: 20px 0 20px 0;
+  }
+  &__challengest {
+    grid-column: 2;
+    grid-row: 19;
+  }
+  &__improve {
+    grid-column: 1;
+    grid-row: 20;
+    margin: 20px 0 20px 0;
+  }
+  &__improvet {
+    grid-column: 1;
+    grid-row: 21;
+  }
+  &__reflection {
+    grid-column: 2;
+    grid-row: 20;
+    margin: 20px 0 20px 0;
+  }
+  &__reflectiont {
+    grid-column: 2;
+    grid-row: 21;
+  }
 }
