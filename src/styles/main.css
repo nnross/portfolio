@@ -1283,7 +1283,7 @@ body {
   font-size: 20px;
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
-  background-image: url("../assets/background.png");
+  background-image: url("background.png");
   background-color: #F3F3F0;
   background-size: cover;
   background-repeat: no-repeat;
