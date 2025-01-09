@@ -1,17 +1,18 @@
 .menu {
-    position: fixed;
-    top: 35%;
-    left: 5%;
-    &__list {
-        display: flex;
-        flex-direction: column;
-        &__item {
-            text-decoration: none;
-            color: $darkBrown;
-            margin: 10px;
-            &.active {
-                text-decoration: underline wavy $lightBrown 2px;
-            }
-        }
+  position: fixed;
+  top: 35%;
+  left: 5%;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    &__item {
+      text-decoration: none;
+      color: $darkBrown;
+      margin: 10px;
+      &.active {
+        text-decoration: underline wavy $lightBrown 2px;
+        -webkit-text-decoration: underline wavy $lightBrown;
+      }
     }
+  }
 }

@@ -19,12 +19,14 @@ const Title = ({
       <h2 className={`${className}__question`} id={`${id}__question`}>
         {question}
       </h2>
-      <img
-        className={`${className}__${arrow2}`}
-        id={`${id}__${arrow2}`}
-        src={`/${arrow2}.svg`}
-        alt=""
-      />
+      {arrow2 === undefined ? null : (
+        <img
+          className={`${className}__${arrow2}`}
+          id={`${id}__${arrow2}`}
+          src={`/${arrow2}.svg`}
+          alt=""
+        />
+      )}
       <h1 className={`${className}__title`} id={`${id}__title`}>
         {title}
       </h1>

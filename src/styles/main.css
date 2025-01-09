@@ -77,8 +77,8 @@
   width: 80px;
 }
 .header__menu__button.active {
-  -webkit-text-decoration: underline wavy #6D614E 2px;
-          text-decoration: underline wavy #6D614E 2px;
+  text-decoration: underline wavy #6D614E 2px;
+  -webkit-text-decoration: underline wavy #6D614E;
 }
 
 .about {
@@ -406,8 +406,8 @@
   margin: 10px;
 }
 .menu__list__item.active {
-  -webkit-text-decoration: underline wavy #6D614E 2px;
-          text-decoration: underline wavy #6D614E 2px;
+  text-decoration: underline wavy #6D614E 2px;
+  -webkit-text-decoration: underline wavy #6D614E;
 }
 
 .projects {
@@ -1171,6 +1171,7 @@
   grid-template-columns: 10% 20% 35% 5% 20% 10%;
   grid-auto-rows: auto;
   row-gap: 60px;
+  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   width: 80%;
