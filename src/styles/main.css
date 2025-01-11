@@ -1650,8 +1650,10 @@ h1 {
 }
 
 @media only screen and (max-width: 900px) {
+  html,
   body {
     font-size: 16px;
+    background-attachment: fixed !important;
   }
   h2 {
     font-size: 20px;
