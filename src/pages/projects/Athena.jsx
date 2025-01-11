@@ -80,7 +80,7 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     <p className={`${className}__illustration`}>illustrations</p>
     <ImageWithLoading
       className={`${className}__background`}
-      src="/athena_background.png"
+      src="/athena_background.PNG"
       alt=""
     />
     <div className={`${className}__characters`}>

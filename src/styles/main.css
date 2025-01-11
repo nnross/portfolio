@@ -907,7 +907,7 @@
 }
 .athena__characters {
   grid-column: 2;
-  grid-row: 11;
+  grid-row: 12;
   display: flex;
   justify-content: center;
 }
@@ -1654,15 +1654,6 @@ h1 {
 }
 
 @media only screen and (max-width: 900px) {
-  html,
-  body {
-    font-size: 16px;
-    background-position: top center;
-    background-attachment: fixed !important;
-    background-size: cover;
-    background-attachment: scroll;
-    height: 100vh;
-  }
   h2 {
     font-size: 20px;
   }

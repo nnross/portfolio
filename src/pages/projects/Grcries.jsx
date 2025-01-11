@@ -1,4 +1,5 @@
 import propTypes from "prop-types";
+import ImageWithLoading from "../../components/ImageWithLoading";
 
 const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
   <section className={className} id={id} ref={refer}>
@@ -12,7 +13,11 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
       finally a usability testing plan. The requirements for the app were a very
       specific 16-point list.{" "}
     </p>
-    <img className={`${className}__screenimg`} src="/grcries_home.png" alt="" />
+    <ImageWithLoading
+      className={`${className}__screenimg`}
+      src="/grcries_home.png"
+      alt=""
+    />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
       I first started to think about what kind of target audience I would want
@@ -23,29 +28,41 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
     </p>
     <h2 className={`${className}__design`}>solution & design</h2>
     <p className={`${className}__colour`}>colour scheme</p>
-    <img
+    <ImageWithLoading
       className={`${className}__paletteimg`}
       src="/grcries_palette.svg"
       alt=""
     />
     <p className={`${className}__typography`}>typography</p>
     <div className={`${className}__fonts`}>
-      <img
+      <ImageWithLoading
         className={`${className}__fonts__logoimg`}
         src="/grcries_logo.svg"
         alt=""
       />
-      <img
+      <ImageWithLoading
         className={`${className}__fonts__bodyimg`}
         src="/grcries_font.svg"
         alt=""
       />
     </div>
     <p className={`${className}__prototype`}>prototype</p>
-    <img className={`${className}__homeimg`} src="/grcries_home.png" alt="" />
-    <img className={`${className}__listimg`} src="/grcries_items.png" alt="" />
-    <img className={`${className}__newimg`} src="/grcries_new.png" alt="" />
-    <img
+    <ImageWithLoading
+      className={`${className}__homeimg`}
+      src="/grcries_home.png"
+      alt=""
+    />
+    <ImageWithLoading
+      className={`${className}__listimg`}
+      src="/grcries_items.png"
+      alt=""
+    />
+    <ImageWithLoading
+      className={`${className}__newimg`}
+      src="/grcries_new.png"
+      alt=""
+    />
+    <ImageWithLoading
       className={`${className}__activeimg`}
       src="/grcries_active.png"
       alt=""

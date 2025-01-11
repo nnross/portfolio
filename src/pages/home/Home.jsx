@@ -1,10 +1,11 @@
 import propTypes from "prop-types";
 import { Link } from "react-router-dom";
+import ImageWithLoading from "../../components/ImageWithLoading";
 
 const Home = ({ className = "home", id = "home" }) => (
   <div className={className} id={id}>
     <Link className={`${className}__link`} id={`${id}__link`} to="/about">
-      <img
+      <ImageWithLoading
         className={`${className}__title`}
         id={`${id}__title`}
         src="/frontPage.svg"
