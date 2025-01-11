@@ -1,13 +1,12 @@
 .about {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: auto;
   overflow-y: scroll;
   width: 100%;
   max-width: 100vw;
   display: flex;
   flex-direction: column;
-
   &__intro {
     margin-top: 50px;
     display: flex;
@@ -25,6 +24,22 @@
       width: 60%;
       height: 100%;
       margin-bottom: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    &__intro {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__lists {
+      margin-bottom: 25px;
+    }
+    &__lists__logos {
+      margin-bottom: 15px;
     }
   }
 }

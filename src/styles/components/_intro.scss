@@ -1,38 +1,86 @@
 .intro {
+  display: grid;
+  grid-template-columns: 5vw 10vw 25vw 10vw;
+  grid-template-rows: 12.5% 11.25% 17.5% 17.5% 10% 5% 10% 16.25%;
+  &__title {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    margin-left: 50px;
+    place-content: center;
+  }
+  &__1 {
+    grid-column: 2 / 4;
+    grid-row: 2;
+  }
+  &__2 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+  }
+  &__arrow1 {
+    grid-column: 4;
+    grid-row: 4;
+  }
+  &__3 {
+    grid-column: 3 / 5;
+    grid-row: 5 / 6;
+  }
+  &__arrow2 {
+    grid-column: 2;
+    grid-row: 6 / 7;
+  }
+  &__4 {
+    grid-column: 2 / 4;
+    grid-row: 8;
+  }
+  &__highlight {
+    background-color: $highlight;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .intro {
     display: grid;
-    grid-template-columns: calc((calc(100vw / 2)) / 10) calc((calc(100vw / 2)) / 5) calc((calc(100vw / 2)) / 2) calc((calc(100vw / 2)) / 5) ;
-    grid-template-rows: 100px 90px 140px 140px 80px 40px 80px 130px ;
+    grid-template-columns: 4.5vw 18vw 55vw 18vw 4.5vw;
+    grid-template-rows: 12.5% 11.25% 17.5% 10% 10% 5% 5% 16.25%;
+    margin-left: auto;
+    margin-right: auto;
     &__title {
-        grid-column: 1 / 4;
-        grid-row: 1;
-        margin-left: 50px;
-        place-content: center;
+      grid-column: 1 / 5;
+      grid-row: 1;
+      margin-left: auto;
+      margin-right: auto;
     }
     &__1 {
-        grid-column: 2 / 4;
-        grid-row: 2;
+      grid-column: 2 / 4;
+      grid-row: 2;
     }
     &__2 {
-        grid-column: 2 / 4;
-        grid-row: 3 / 4;
+      grid-column: 2 / 4;
+      grid-row: 3 / 4;
     }
     &__arrow1 {
-        grid-column: 4;
-        grid-row: 4;
+      grid-column: 4;
+      grid-row: 4;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
     }
     &__3 {
-        grid-column: 3 / 5;
-        grid-row: 5 / 6;
+      grid-column: 3 / 5;
+      grid-row: 5 / 6;
     }
     &__arrow2 {
-        grid-column: 2;
-        grid-row: 6 / 7;
+      grid-column: 2;
+      grid-row: 6 / 8;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
     }
     &__4 {
-        grid-column: 2 / 4;
-        grid-row: 8;
+      grid-column: 2 / 4;
+      grid-row: 8;
     }
     &__highlight {
-        background-color: $highlight;
+      background-color: $highlight;
     }
+  }
 }

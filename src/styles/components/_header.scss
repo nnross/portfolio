@@ -3,12 +3,14 @@
   top: 0;
   width: 100%;
   z-index: 100;
+
   &__background {
     display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
   }
+
   &__menu {
     position: absolute;
     top: 50%;
@@ -17,18 +19,66 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 40%;
     align-items: center;
+    width: 40%;
     z-index: 1;
+
     &__button {
       cursor: pointer;
       text-decoration: none;
       height: 40px;
       width: 80px;
+
       &.active {
         text-decoration: underline wavy $lightBrown 2px;
         -webkit-text-decoration: underline wavy $lightBrown;
       }
+    }
+  }
+
+  &__hamburger {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    &__menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 30%;
+      width: 50%;
+      background-image: url("../assets/header.svg");
+      background-color: none;
+      background-size: cover;
+      border-radius: 5px;
+      transform-origin: top right;
+      transform: scale(0);
+      transition: transform 0.3s ease-in-out;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &.open {
+        transform: scale(1);
+      }
+    }
+    &__background {
+      display: none;
+    }
+    &__hamburger {
+      display: block;
     }
   }
 }

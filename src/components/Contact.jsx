@@ -64,8 +64,27 @@ const Contact = ({ className = "contact", id = "contact" }) => {
           </a>
         </div>
         <div
+          className={`${className}__links__figma`}
+          id={`${id}__links__figma`}
+        >
+          <img
+            className={`${className}__links__figma__icon`}
+            id={`${id}__links__figma__icon`}
+            src="/figma.svg"
+            alt="figma icon"
+          />
+          <a
+            className={`${className}__links__figma__address`}
+            id={`${id}__links__figma__address`}
+            href="https://www.figma.com/@nnross"
+            target="_blank"
+          >
+            figma
+          </a>
+        </div>
+        <div
           className={`${className}__links__github`}
-          id={`${id}__links__github`}
+          id={`${id}__links__figma`}
         >
           <img
             className={`${className}__links__github__icon`}

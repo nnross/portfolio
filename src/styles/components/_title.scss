@@ -1,7 +1,7 @@
 .skills {
   display: grid;
   grid-template-columns: 200px 200px 200px;
-  grid-template-rows: 80px 40px 80px 40px 50px ;
+  grid-template-rows: 80px 40px 80px 40px 50px;
   justify-content: center;
   &__arrow_1_part1 {
     grid-column: 2 / 3;
@@ -25,7 +25,7 @@
 .courses {
   display: grid;
   grid-template-columns: 150px 200px 250px;
-  grid-template-rows: 80px 60px 80px 80px ;
+  grid-template-rows: 80px 60px 80px 80px;
   justify-content: center;
   &__arrow_2_part1 {
     grid-column: 3 / 5;
@@ -50,7 +50,7 @@
 .hobby {
   display: grid;
   grid-template-columns: 200px 200px;
-  grid-template-rows: 80px 80px 80px 40px 50px ;
+  grid-template-rows: 80px 80px 80px 40px 50px;
   justify-content: center;
   &__arrow_3_part1 {
     grid-column: 2;
@@ -75,7 +75,7 @@
 .more {
   display: grid;
   grid-template-columns: 200px 300px 200px;
-  grid-template-rows: 80px 80px 80px 80px ;
+  grid-template-rows: 80px 80px 80px 80px;
   justify-content: center;
   &__arrow_4 {
     grid-column: 1 / 3;
@@ -88,4 +88,127 @@
   }
 }
 
-  
+@media only screen and (max-width: 900px) {
+  .skills {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 40px 20px 40px 20px 25px;
+    justify-content: center;
+    row-gap: 5px;
+    &__arrow_1_part1 {
+      grid-column: 2;
+      grid-row: 1;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    &__arrow_1_part2 {
+      grid-column: 1;
+      grid-row: 3 / 4;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+      margin-top: 10%;
+    }
+    &__title {
+      grid-column: 1 / 4;
+      grid-row: 3 / 5;
+      align-self: end;
+      justify-self: end;
+      font-size: 40px;
+    }
+    &__question {
+      grid-column: 1 / 4;
+      grid-row: 2;
+      align-self: center;
+      justify-self: start;
+    }
+  }
+  .courses {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 40px 30px 40px 30px;
+    justify-content: center;
+    margin-top: 20px;
+    row-gap: 10px;
+    &__arrow_2_part1 {
+      grid-column: 3;
+      grid-row: 1;
+      max-width: 70%;
+      max-height: 70%;
+      object-fit: contain;
+    }
+    &__arrow_2_part2 {
+      grid-column: 1;
+      grid-row: 3;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    &__title {
+      grid-column: 1 / 4;
+      grid-row: 3 / 5;
+      font-size: 34px;
+      align-self: center;
+      justify-self: center;
+    }
+    &__question {
+      grid-column: 1 / 4;
+      grid-row: 2;
+      place-content: center;
+      font-size: 18px;
+    }
+  }
+  .hobby {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 40px 40px 40px 45px;
+    justify-content: center;
+    row-gap: 5px;
+    &__arrow_3_part1 {
+      grid-column: 2;
+      grid-row: 1;
+      max-width: 80%;
+      max-height: 80%;
+      object-fit: contain;
+    }
+    &__arrow_3_part2 {
+      grid-column: 1;
+      grid-row: 3 / 4;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    &__title {
+      grid-column: 1;
+      grid-row: 3 / 5;
+      align-self: center;
+      justify-self: end;
+      font-size: 40px;
+    }
+    &__question {
+      grid-column: 1 / 3;
+      grid-row: 2;
+      place-self: center;
+    }
+  }
+  .more {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 40px 40px 40px;
+    justify-content: center;
+    &__arrow_4 {
+      grid-column: 1;
+      grid-row: 1 / 2;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    &__question {
+      grid-column: 1 / 4;
+      grid-row: 2 / 4;
+      place-self: center;
+      margin-left: 10%;
+    }
+  }
+}

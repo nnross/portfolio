@@ -1,10 +1,14 @@
+import { useState } from "react";
 import propTypes from "prop-types";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = ({ className = "header", id = "header" }) => {
   const location = useLocation();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const isActive = (path) => location.pathname === path;
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
     <header className={className} id={id}>
@@ -14,7 +18,18 @@ const Header = ({ className = "header", id = "header" }) => {
         src="/header.svg"
         alt=""
       />
-      <div className={`${className}__menu`} id={`${id}__menu`}>
+      <button
+        className={`${className}__hamburger ${menuOpen ? "open" : ""}`}
+        id={`${id}__hamburger`}
+        onClick={toggleMenu}
+        aria-label="Toggle Menu"
+      >
+        {menuOpen ? "✕" : "☰"}
+      </button>
+      <div
+        className={`${className}__menu ${menuOpen ? "open" : ""}`}
+        id={`${id}__menu`}
+      >
         <Link
           className={`${className}__menu__about`}
           id={`${id}__menu__about`}
