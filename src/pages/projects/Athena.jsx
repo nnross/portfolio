@@ -1,4 +1,5 @@
 import propTypes from "prop-types";
+import ImageWithLoading from "../../components/ImageWithLoading";
 
 const Athena = ({ className = "athena", id = "athena" }) => (
   <section className={className} id={id}>
@@ -13,11 +14,10 @@ const Athena = ({ className = "athena", id = "athena" }) => (
       target audience of Athena is students who enjoy gacha games and cute
       characters.
     </p>
-    <img
+    <ImageWithLoading
       className={`${className}__frontimg`}
       src="/athena_front.png"
       alt=""
-      loading="lazy"
     />
     <h2 className={`${className}__research`}>research & insights</h2>
     <p className={`${className}__researcht`}>
@@ -34,93 +34,97 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     </p>
     <h2 className={`${className}__design`}>solution & design</h2>
     <p className={`${className}__colour`}>colour scheme</p>
-    <img
+    <ImageWithLoading
       className={`${className}__paletteimg`}
       src="/athena_palette.svg"
       alt=""
-      loading="lazy"
     />
     <p className={`${className}__typography`}>typography</p>
     <div className={`${className}__fonts`}>
-      <img
+      <ImageWithLoading
         className={`${className}__fonts__titleimg`}
         src="/athena_title.svg"
         alt=""
-        loading="lazy"
       />
-      <img
+      <ImageWithLoading
         className={`${className}__fonts__bodyimg`}
         src="/athena_body.svg"
         alt=""
-        loading="lazy"
       />
     </div>
     <p className={`${className}__sketch`}>wireframes</p>
     <div className={`${className}__sketches1`}>
-      <img
+      <ImageWithLoading
         className={`${className}__sketches1__sketch1`}
         src="/sketch_home.png"
         alt=""
-        loading="lazy"
       />
-      <img
+      <ImageWithLoading
         className={`${className}__sketches1__sketch2`}
         src="/sketch_feed.png"
         alt=""
-        loading="lazy"
       />
     </div>
     <div className={`${className}__sketches2`}>
-      <img
+      <ImageWithLoading
         className={`${className}__sketches2__sketch3`}
         src="/sketch_task.png"
         alt=""
-        loading="lazy"
       />
-      <img
+      <ImageWithLoading
         className={`${className}__sketches2__sketch4`}
         src="/sketch_gacha.png"
         alt=""
-        loading="lazy"
       />
     </div>
     <p className={`${className}__illustration`}>illustrations</p>
-    <img
+    <ImageWithLoading
       className={`${className}__background`}
       src="/athena_background.png"
       alt=""
-      loading="lazy"
     />
     <div className={`${className}__characters`}>
-      <img
+      <ImageWithLoading
         className={`${className}__characters__1`}
         src="/character_1.PNG"
         alt=""
-        loading="lazy"
       />
-      <img
+      <ImageWithLoading
         className={`${className}__characters__2`}
         src="/character_2.PNG"
         alt=""
-        loading="lazy"
       />
-      <img
+      <ImageWithLoading
         className={`${className}__characters__3`}
         src="/character_3.PNG"
         alt=""
-        loading="lazy"
       />
     </div>
     <p className={`${className}__prototype`}>prototype</p>
-    <img className={`${className}__homeimg`} src="/athena_home.png" alt="" />
-    <img className={`${className}__taskimg`} src="/athena_task.png" alt="" />
-    <img className={`${className}__feedimg`} src="/athena_feed.png" alt="" />
-    <img className={`${className}__gachaimg`} src="/athena_gacha.png" alt="" />
-    <img
+    <ImageWithLoading
+      className={`${className}__homeimg`}
+      src="/athena_home.png"
+      alt=""
+    />
+    <ImageWithLoading
+      className={`${className}__taskimg`}
+      src="/athena_task.png"
+      alt=""
+    />
+    <ImageWithLoading
+      className={`${className}__feedimg`}
+      src="/athena_feed.png"
+      alt=""
+    />
+    <ImageWithLoading
+      className={`${className}__gachaimg`}
+      src="/athena_gacha.png"
+      alt=""
+    />
+    <ImageWithLoading
       className={`${className}__settingsimg`}
       src="/athena_settings.png"
       alt=""
-      loading="lazy"
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>
     <p className={`${className}__toolst`}>

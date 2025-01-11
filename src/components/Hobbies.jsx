@@ -1,15 +1,16 @@
 import propTypes from "prop-types";
+import ImageWithLoading from "./ImageWithLoading";
 
 const Hobbies = ({ className = "hobbies", id = "hobbies" }) => {
   return (
     <div className={`${className}`} id={`${id}`}>
-      <img
+      <ImageWithLoading
         className={`${className}__painting`}
         id={`${id}__painting`}
         src="/painting.png"
         alt="Painting of a cat."
-        loading="lazy"
       />
+
       <p
         className={`${className}__painting__text`}
         id={`${id}__painting__text`}
@@ -17,12 +18,11 @@ const Hobbies = ({ className = "hobbies", id = "hobbies" }) => {
         I have been drawing, painting and creating art for as long as I can
         remember
       </p>
-      <img
+      <ImageWithLoading
         className={`${className}__running`}
         id={`${id}__running`}
         src="/running.png"
         alt="Apple watch and running shoes."
-        loading="lazy"
       />
       <p className={`${className}__running__text`} id={`${id}__running__text`}>
         This year I started running and ran my first half marathon
@@ -32,7 +32,6 @@ const Hobbies = ({ className = "hobbies", id = "hobbies" }) => {
         id={`${id}__reading`}
         src="/reading.png"
         alt="Shelves of books."
-        loading="lazy"
       />
       <p className={`${className}__reading__text`} id={`${id}__reading__text`}>
         I love reading, I own nearly 200 books and I dream of one day writing my
@@ -43,7 +42,6 @@ const Hobbies = ({ className = "hobbies", id = "hobbies" }) => {
         id={`${id}__knitting`}
         src="/knitting.png"
         alt="A stripy sweater."
-        loading="lazy"
       />
       <p
         className={`${className}__knitting__text`}

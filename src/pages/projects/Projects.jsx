@@ -33,7 +33,7 @@ const Projects = ({ className = "projects", id = "projects" }) => {
   };
 
   useEffect(() => {
-    const debouncedHandleScroll = debounce(handleScroll, 100);
+    const debouncedHandleScroll = debounce(handleScroll, 30);
     window.addEventListener("scroll", debouncedHandleScroll, { passive: true });
 
     return () => {

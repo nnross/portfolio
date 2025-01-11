@@ -9,7 +9,6 @@ const Home = ({ className = "home", id = "home" }) => (
         id={`${id}__title`}
         src="/frontPage.svg"
         alt="UI/UX design and frontend development portfolio, Nelli Rossi, 2024-2025"
-        loading="lazy"
       />
     </Link>
     <Link className={`${className}__link`} id={`${id}__link`} to="/about">

@@ -48,7 +48,7 @@ const Header = ({ className = "header", id = "header" }) => {
         <Link
           className={`${className}__menu__projects`}
           id={`${id}__menu__projects`}
-          to="/projects#athena"
+          to="/projects"
         >
           <button
             className={`${className}__menu__button ${

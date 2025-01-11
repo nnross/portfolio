@@ -15,7 +15,6 @@ const Title = ({
         id={`${id}__${arrow1}`}
         src={`/${arrow1}.svg`}
         alt=""
-        loading="lazy"
       />
       <h2 className={`${className}__question`} id={`${id}__question`}>
         {question}
@@ -26,7 +25,6 @@ const Title = ({
           id={`${id}__${arrow2}`}
           src={`/${arrow2}.svg`}
           alt=""
-          loading="lazy"
         />
       )}
       <h1 className={`${className}__title`} id={`${id}__title`}>

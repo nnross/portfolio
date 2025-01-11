@@ -1,15 +1,16 @@
 import propTypes from "prop-types";
+import ImagewithLoading from "./ImageWithLoading";
 
 const Contact = ({ className = "contact", id = "contact" }) => {
   return (
     <div className={`${className}`} id={`${id}`}>
       <div className={`${className}__image`} id={`${id}__image`}>
-        <img
+        <ImagewithLoading
           className={`${className}__image__1`}
           id={`${id}__image__1`}
           src="/portrait.png"
-          alt=""
-          loading="lazy"
+          height="280px"
+          width="231px"
         />
       </div>
       <div className={`${className}__personal`} id={`${id}__personal`}>
@@ -55,7 +56,6 @@ const Contact = ({ className = "contact", id = "contact" }) => {
             id={`${id}__links__mail__icon`}
             src="/mail.svg"
             alt="envelope icon"
-            loading="lazy"
           />
           <a
             className={`${className}__links__mail__address`}
@@ -74,7 +74,6 @@ const Contact = ({ className = "contact", id = "contact" }) => {
             id={`${id}__links__figma__icon`}
             src="/figma.svg"
             alt="figma icon"
-            loading="lazy"
           />
           <a
             className={`${className}__links__figma__address`}
@@ -94,7 +93,6 @@ const Contact = ({ className = "contact", id = "contact" }) => {
             id={`${id}__links__github__icon`}
             src="/github_1.svg"
             alt="github icon"
-            loading="lazy"
           />
           <a
             className={`${className}__links__github__address`}

@@ -16,3 +16,9 @@
     }
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+}
