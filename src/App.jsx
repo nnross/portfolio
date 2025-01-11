@@ -11,6 +11,7 @@ export default function App() {
   }, [location.pathname]);
   return (
     <div>
+      <div className="background"></div>
       {location.pathname !== "/" && <Header />}
       <Outlet />
     </div>

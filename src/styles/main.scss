@@ -17,6 +17,15 @@
 
 html,
 body {
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin: 0;
   padding: 0;
   -webkit-user-select: none;
@@ -30,8 +39,6 @@ body {
   background-color: $background;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 button,
@@ -62,6 +69,9 @@ h1 {
 }
 
 @media only screen and (max-width: 900px) {
+  html,
+  body {
+  }
   h2 {
     font-size: 20px;
   }
