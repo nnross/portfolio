@@ -12,7 +12,12 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
       finally a usability testing plan. The requirements for the app were a very
       specific 16-point list.{" "}
     </p>
-    <img className={`${className}__screenimg`} src="/grcries_home.png" alt="" />
+    <img
+      className={`${className}__screenimg`}
+      src="/grcries_home.png"
+      alt=""
+      loading="lazy"
+    />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
       I first started to think about what kind of target audience I would want
@@ -27,6 +32,7 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
       className={`${className}__paletteimg`}
       src="/grcries_palette.svg"
       alt=""
+      loading="lazy"
     />
     <p className={`${className}__typography`}>typography</p>
     <div className={`${className}__fonts`}>
@@ -34,11 +40,13 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
         className={`${className}__fonts__logoimg`}
         src="/grcries_logo.svg"
         alt=""
+        loading="lazy"
       />
       <img
         className={`${className}__fonts__bodyimg`}
         src="/grcries_font.svg"
         alt=""
+        loading="lazy"
       />
     </div>
     <p className={`${className}__prototype`}>prototype</p>
@@ -49,6 +57,7 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
       className={`${className}__activeimg`}
       src="/grcries_active.png"
       alt=""
+      loading="lazy"
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>
     <p className={`${className}__toolst`}>

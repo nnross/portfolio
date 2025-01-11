@@ -22,6 +22,7 @@ const Skills = ({ className = "skills", id = "skills" }) => {
         id={`${id}__arrow1`}
         src="/small_arrow_1.svg"
         alt=""
+        loading="lazy"
       />
       <p className={`${className}__3`} id={`${id}__3`}>
         I thought about architecture, biomedicine, economics, and a lot more.
@@ -33,6 +34,7 @@ const Skills = ({ className = "skills", id = "skills" }) => {
         id={`${id}__arrow2`}
         src="/small_arrow_2.svg"
         alt=""
+        loading="lazy"
       />
       <p className={`${className}__4`} id={`${id}__4`}>
         Then I found interaction design. It connected all my interests and

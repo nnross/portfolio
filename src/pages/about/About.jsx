@@ -57,6 +57,7 @@ const About = ({ className = "about", id = "about" }) => (
         className={`${className}__lists__logos`}
         src="/logos.svg"
         alt="logos of figma, github, node, express, react, and java"
+        loading="lazy"
       />
       <Title
         className={"courses"}

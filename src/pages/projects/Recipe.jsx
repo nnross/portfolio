@@ -11,7 +11,12 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
       idea was to create a recipe website where you could have an account, save
       recipes to lists and a calendar, and see statistics.{" "}
     </p>
-    <img className={`${className}__frontimg`} src="/recipe_home.png" alt="" />
+    <img
+      className={`${className}__frontimg`}
+      src="/recipe_home.png"
+      alt=""
+      loading="lazy"
+    />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
       We wanted to test scrum in practice while doing this project, so that’s
@@ -25,6 +30,7 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
       className={`${className}__paletteimg`}
       src="/recipe_palette.svg"
       alt=""
+      loading="lazy"
     />
     <p className={`${className}__typography`}>typography</p>
     <div className={`${className}__fonts`}>
@@ -32,16 +38,19 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
         className={`${className}__fonts__titleimg`}
         src="/recipe_logo.svg"
         alt=""
+        loading="lazy"
       />
       <img
         className={`${className}__fonts__homeimg`}
         src="/recipe_homefont.svg"
         alt=""
+        loading="lazy"
       />
       <img
         className={`${className}__fonts__bodyimg`}
         src="/recipe_font.svg"
         alt=""
+        loading="lazy"
       />
     </div>
     <p className={`${className}__prototype`}>prototype</p>
@@ -50,32 +59,38 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
       className={`${className}__searchimg`}
       src="/recipe_search.png"
       alt=""
+      loading="lazy"
     />
     <img className={`${className}__recipeimg`} src="/recipe_open.png" alt="" />
     <img
       className={`${className}__profileimg`}
       src="/recipe_profile.png"
       alt=""
+      loading="lazy"
     />
     <img
       className={`${className}__homeimgmob`}
       src="/recipe_home_mobile.png"
       alt=""
+      loading="lazy"
     />
     <img
       className={`${className}__searchimgmob`}
       src="/recipe_search_mobile.png"
       alt=""
+      loading="lazy"
     />
     <img
       className={`${className}__recipeimgmob`}
       src="/recipe_open_mobile.png"
       alt=""
+      loading="lazy"
     />
     <img
       className={`${className}__profileimgmob`}
       src="/recipe_profile_mobile.png"
       alt=""
+      loading="lazy"
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>
     <p className={`${className}__toolst`}>

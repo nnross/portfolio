@@ -17,6 +17,7 @@ const Header = ({ className = "header", id = "header" }) => {
         id={`${id}__background`}
         src="/header.svg"
         alt=""
+        loading="lazy"
       />
       <button
         className={`${className}__hamburger ${menuOpen ? "open" : ""}`}
