@@ -604,10 +604,11 @@
   .list {
     margin-top: 25px;
     margin-bottom: 20px;
+    width: 90%;
   }
   .list__list__item {
     padding: 0px;
-    width: 100px;
+    width: 25%;
   }
 }
 .hobbies {
@@ -770,7 +771,7 @@
 }
 .athena {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 10px;

@@ -76,7 +76,6 @@ const About = ({ className = "about", id = "about" }) => {
             "interactive storytelling*",
             "gamification and serious games",
             "changing art and culture",
-            "social psychology*",
             "introduction to cognitive psychology and neuropsychology",
             "cognitive processes*",
           ]}
@@ -87,8 +86,10 @@ const About = ({ className = "about", id = "about" }) => {
           items={[
             "full stack web development",
             "basic course of software engineering",
+            "device-agnostic design*",
             "personal projects",
           ]}
+          ongoing={"* ongoing courses"}
         />
         <Title
           className={"hobby"}
