@@ -115,6 +115,14 @@
     cursor: pointer;
     z-index: 2;
   }
+  .header__hamburger__img {
+    height: 25px;
+    width: 25px;
+  }
+  .header__hamburger__close {
+    height: 25px;
+    width: 25px;
+  }
 }
 .about {
   margin: 0;

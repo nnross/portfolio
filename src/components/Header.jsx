@@ -24,7 +24,21 @@ const Header = ({ className = "header", id = "header" }) => {
         onClick={toggleMenu}
         aria-label="Toggle Menu"
       >
-        {menuOpen ? "✕" : "☰"}
+        {menuOpen ? (
+          <img
+            className={`${className}__hamburger__close`}
+            id={`${id}__hamburger__close`}
+            src="/close.svg"
+            alt=""
+          />
+        ) : (
+          <img
+            className={`${className}__hamburger__img`}
+            id={`${id}__hamburger__img`}
+            src="/hamburger.svg"
+            alt=""
+          />
+        )}
       </button>
       <div
         className={`${className}__menu ${menuOpen ? "open" : ""}`}
