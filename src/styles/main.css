@@ -1746,6 +1746,8 @@ body {
        user-select: none;
   font-family: "mainText";
   font-size: 20px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 .background {
@@ -1757,8 +1759,6 @@ body {
   right: 0;
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
-  scroll-padding-top: 100px;
   background-image: url("../assets/background.png");
   background-color: #F3F3F0;
   background-size: cover;
