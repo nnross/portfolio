@@ -247,3 +247,16 @@
     grid-row: 21;
   }
 }
+@media only screen and (max-width: 900px) {
+  .athena {
+    &__title {
+      grid-column: 1 / 3;
+    }
+    &__frontimg {
+      grid-row: 2;
+    }
+    &__desct {
+      grid-column: 1 / 3;
+    }
+  }
+}
