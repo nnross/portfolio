@@ -18,7 +18,7 @@ const Intro = ({ className = "intro", id = "intro" }) => {
         always been creative and creating, I even attended an art program in
         high school. But on the other hand I really liked math and problem
         solving. I was also really interested in psychology, not to mention that
-        I’m also a very empathic person.
+        I’m also a very empathetic person.
       </p>
       <img
         className={`${className}__arrow1`}

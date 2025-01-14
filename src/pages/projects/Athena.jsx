@@ -22,7 +22,7 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     <h2 className={`${className}__research`}>research & insights</h2>
     <p className={`${className}__researcht`}>
       The research for this project comes from my studies, where I learned how
-      to effective gamification can be. Also from personal and friends’ use of
+      effective gamification can be. Also from personal and friends’ use of
       existing productivity boosting apps. I noticed that they lack something to
       make the use consistent enough.
     </p>
@@ -52,7 +52,7 @@ const Athena = ({ className = "athena", id = "athena" }) => (
         alt=""
       />
     </div>
-    <p className={`${className}__sketch`}>wireframes</p>
+    <p className={`${className}__sketch`}>low-fidelity wireframes</p>
     <div className={`${className}__sketches1`}>
       <ImageWithLoading
         className={`${className}__sketches1__sketch1`}
@@ -150,7 +150,7 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     <h2 className={`${className}__improve`}>in progress</h2>
     <p className={`${className}__improvet`}>
       As the project is still unfinished, it has some areas that need more or
-      less work. The tablet and mobile views are till only on a wireframe level
+      less work. The tablet and mobile views are still only on a wireframe level
       and lack actual prototypes. When the project is finished I also hope to do
       some usability testing.
     </p>

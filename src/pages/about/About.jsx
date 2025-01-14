@@ -71,8 +71,9 @@ const About = ({ className = "about", id = "about" }) => {
           items={[
             "usability, user experience and analytics",
             "modern user interfaces*",
-            "digital art and interactive experiences",
             "principles of interaction design*",
+            "device-agnostic design*",
+            "digital art and interactive experiences",
             "interactive storytelling*",
             "gamification and serious games",
             "changing art and culture",
@@ -86,6 +87,7 @@ const About = ({ className = "about", id = "about" }) => {
           items={[
             "full stack web development",
             "basic course of software engineering",
+            "modern user interfaces*",
             "device-agnostic design*",
             "personal projects",
           ]}

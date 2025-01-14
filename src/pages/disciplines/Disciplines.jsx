@@ -23,7 +23,7 @@ const Disciplines = ({ className = "disciplines", id = "disciplines" }) => (
     <p className={`${className}__visual__text`}>
       I have a keen eye for designing the visual qualities of a product in an
       aesthetically pleasing way. My passion for great visual design can be seen
-      on my focus on typography, colour theory, and layout principles.
+      in my focus on typography, colour theory, and layout principles.
     </p>
     <h1 className={`${className}__info__title`}>information architecture</h1>
     <ImageWithLoading
@@ -54,7 +54,7 @@ const Disciplines = ({ className = "disciplines", id = "disciplines" }) => (
     />
     <p className={`${className}__usability__text`}>
       I have experience on evaluating the usability of a product based on
-      Nielsen’s heuristics. I can also make changes on designs base on insights
+      Nielsen’s heuristics. I can also make changes on designs based on insights
       to make sure the final product meets user needs efficiently.
     </p>
     <h1 className={`${className}__accessibility__title`}>
