@@ -16,7 +16,7 @@ const Yuki = ({ className = "yuki", id = "yuki", refe }) => (
     <ImageWithLoading
       className={`${className}__screenimg`}
       src="/yuki_screen.png"
-      alt=""
+      alt="cafe yuki homepage"
     />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
@@ -44,17 +44,17 @@ const Yuki = ({ className = "yuki", id = "yuki", refe }) => (
     <ImageWithLoading
       className={`${className}__mobileimg`}
       src="/yuki_mobile.png"
-      alt=""
+      alt="cafe yuki mobile view"
     />
     <ImageWithLoading
       className={`${className}__menuimg`}
       src="/yuki_menu.png"
-      alt=""
+      alt="cafe yuki mobile menu"
     />
     <ImageWithLoading
       className={`${className}__tabletimg`}
       src="/yuki_tablet.png"
-      alt=""
+      alt="cafe yuki tablet view"
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>
     <p className={`${className}__toolst`}>

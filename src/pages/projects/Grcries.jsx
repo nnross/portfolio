@@ -16,7 +16,7 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
     <ImageWithLoading
       className={`${className}__screenimg`}
       src="/grcries_home.png"
-      alt=""
+      alt="grcries homepage"
     />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
@@ -50,22 +50,22 @@ const Grcries = ({ className = "grcries", id = "grcries", refer }) => (
     <ImageWithLoading
       className={`${className}__homeimg`}
       src="/grcries_home.png"
-      alt=""
+      alt="grcries homepage"
     />
     <ImageWithLoading
       className={`${className}__listimg`}
       src="/grcries_items.png"
-      alt=""
+      alt="grcries items page"
     />
     <ImageWithLoading
       className={`${className}__newimg`}
       src="/grcries_new.png"
-      alt=""
+      alt="grcries create new list page"
     />
     <ImageWithLoading
       className={`${className}__activeimg`}
       src="/grcries_active.png"
-      alt=""
+      alt="grcries active list page"
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>
     <p className={`${className}__toolst`}>

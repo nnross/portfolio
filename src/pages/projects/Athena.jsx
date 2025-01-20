@@ -17,7 +17,7 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     <ImageWithLoading
       className={`${className}__frontimg`}
       src="/athena_front.png"
-      alt=""
+      alt="athena project frontpage"
     />
     <h2 className={`${className}__research`}>research & insights</h2>
     <p className={`${className}__researcht`}>
@@ -104,27 +104,27 @@ const Athena = ({ className = "athena", id = "athena" }) => (
     <ImageWithLoading
       className={`${className}__homeimg`}
       src="/athena_home.png"
-      alt=""
+      alt="athena homepage"
     />
     <ImageWithLoading
       className={`${className}__taskimg`}
       src="/athena_task.png"
-      alt=""
+      alt="athena taskpage"
     />
     <ImageWithLoading
       className={`${className}__feedimg`}
       src="/athena_feed.png"
-      alt=""
+      alt="athena feedpage"
     />
     <ImageWithLoading
       className={`${className}__gachaimg`}
       src="/athena_gacha.png"
-      alt=""
+      alt="athena gachapage"
     />
     <ImageWithLoading
       className={`${className}__settingsimg`}
       src="/athena_settings.png"
-      alt=""
+      alt="athena settingspage"
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>
     <p className={`${className}__toolst`}>

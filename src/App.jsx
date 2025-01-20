@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Header from "/src/components/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const location = useLocation();
@@ -14,6 +15,7 @@ export default function App() {
       <div className="background"></div>
       {location.pathname !== "/" && <Header />}
       <Outlet />
+      <Analytics />
     </div>
   );
 }

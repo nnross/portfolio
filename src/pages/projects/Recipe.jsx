@@ -15,7 +15,7 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
     <ImageWithLoading
       className={`${className}__frontimg`}
       src="/recipe_home.png"
-      alt=""
+      alt="recipebuddy homepage"
     />
     <h2 className={`${className}__process`}>process & approach</h2>
     <p className={`${className}__processt`}>
@@ -53,42 +53,42 @@ const Recipe = ({ className = "recipe", id = "recipe", refer }) => (
     <ImageWithLoading
       className={`${className}__homeimg`}
       src="/recipe_home.png"
-      alt=""
+      alt="recipebuddy homepage"
     />
     <ImageWithLoading
       className={`${className}__searchimg`}
       src="/recipe_search.png"
-      alt=""
+      alt="recipebuddy searchpage"
     />
     <ImageWithLoading
       className={`${className}__recipeimg`}
       src="/recipe_open.png"
-      alt=""
+      alt="recipebuddy open recipe page"
     />
     <ImageWithLoading
       className={`${className}__profileimg`}
       src="/recipe_profile.png"
-      alt=""
+      alt="recipebuddy profile page"
     />
     <ImageWithLoading
       className={`${className}__homeimgmob`}
       src="/recipe_home_mobile.png"
-      alt=""
+      alt="recipebuddy homepage for mobile"
     />
     <ImageWithLoading
       className={`${className}__searchimgmob`}
       src="/recipe_search_mobile.png"
-      alt=""
+      alt="recipebuddy searchpage for mobile"
     />
     <ImageWithLoading
       className={`${className}__recipeimgmob`}
       src="/recipe_open_mobile.png"
-      alt=""
+      alt="recipebuddy open recipe page for mobile"
     />
     <ImageWithLoading
       className={`${className}__profileimgmob`}
       src="/recipe_profile_mobile.png"
-      alt=""
+      alt="recipebuddy profile page for mobile"
     />
     <h2 className={`${className}__tools`}>tools & techniques</h2>
     <p className={`${className}__toolst`}>

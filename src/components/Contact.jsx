@@ -11,6 +11,7 @@ const Contact = ({ className = "contact", id = "contact" }) => {
           src="/portrait.png"
           height="280px"
           width="231px"
+          alt="portrait of portfolio owner"
         />
       </div>
       <div className={`${className}__personal`} id={`${id}__personal`}>
